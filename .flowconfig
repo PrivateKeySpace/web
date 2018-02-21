@@ -1,0 +1,16 @@
+[ignore]
+.*/build/.*
+.*/coverage/.*
+.*/node_modules/.*
+.*/public/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+
+[options]
+
+[strict]
