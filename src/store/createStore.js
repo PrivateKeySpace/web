@@ -2,6 +2,7 @@ import { compose, applyMiddleware, createStore } from 'redux'
 import { routerMiddleware as createRouterMiddleware } from 'react-router-redux'
 import { responsiveStoreEnhancer } from 'redux-responsive'
 import { createEpicMiddleware } from 'redux-observable'
+
 import getInitialState from './getInitialState'
 import rootReducer from './rootReducer'
 import rootEpic from './rootEpic'

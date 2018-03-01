@@ -6,7 +6,7 @@ import tx from '../../../theme/styles'
 import { BaseLayout } from '../../layouts'
 import { mapState, mapDispatch } from './lib'
 
-const displayName = 'components/views/test/View'
+const displayName = 'components/views/signin/View'
 
 const enhance = compose(
   setDisplayName(displayName),
@@ -19,7 +19,9 @@ function View (props) {
     <BaseLayout
       mainContent={
         <div className={css(tx.p0)}>
-          index test
+          <button type='button' onClick={props.signIn}>
+            Log in with Trezor
+          </button>
         </div>
       }
     />

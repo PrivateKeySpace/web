@@ -1,7 +1,8 @@
 import { cloneDeep } from 'lodash'
+import { LOCATION_CHANGE } from 'react-router-redux'
 import { REPORT_STATUS, REPORT_ERROR } from './actionsTypes'
 
-const initialState = {
+export const initialState = {
   errors: {},
   statuses: {}
 }
@@ -25,6 +26,9 @@ export default (state = initialState, action) => {
       errors[type] = error
 
       return { ...state, errors }
+    }
+    case LOCATION_CHANGE: {
+      return initialState
     }
     default: {
       break

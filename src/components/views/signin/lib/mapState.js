@@ -1,4 +1,3 @@
-
 function mapState (state) {
   return {}
 }

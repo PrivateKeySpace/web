@@ -6,13 +6,13 @@ import { createHashHistory } from 'history'
 import createStore from './store/createStore'
 import { RootRouter } from './components'
 
-const history = createHashHistory()
+const appHistory = createHashHistory()
 
-const appStore = createStore(history)
+const appStore = createStore(appHistory)
 
 const app = (
   <ReduxProvider store={appStore}>
-    <ConnectedRouter history={history}>
+    <ConnectedRouter history={appHistory}>
       <RootRouter />
     </ConnectedRouter>
   </ReduxProvider>

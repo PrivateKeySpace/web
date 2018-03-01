@@ -2,7 +2,10 @@ import React from 'react'
 import { withRouter } from 'react-router'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { compose, setDisplayName, pure } from 'recompose'
-import { Router as TestRouter } from './views/test'
+import { Router as SignInRouter } from './views/signin'
+import { Router as DashboardRouter } from './views/dashboard'
+
+import { withNotAuthenticatedOnlyRedirect, withAuthenticatedOnlyRedirect } from './helpers'
 
 const displayName = 'components/RootRouter'
 
@@ -18,11 +21,15 @@ function RootRouter () {
       <Route
         exact
         path='/'
-        component={() => <Redirect to='/test' />}
+        component={() => <Redirect to='/signin' />}
       />
       <Route
-        path='/test'
-        component={TestRouter}
+        path='/signin'
+        component={withNotAuthenticatedOnlyRedirect(SignInRouter)}
+      />
+      <Route
+        path='/dashboard'
+        component={withAuthenticatedOnlyRedirect(DashboardRouter)}
       />
     </Switch>
   )
