@@ -65,8 +65,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "make typecheck && lint-staged",
-      "pre-push": "make ci"
+      "pre-commit": "lint-staged",
+      "pre-push": "make lint && make typecheck && make test-ci"
     }
   },
   "jest": {

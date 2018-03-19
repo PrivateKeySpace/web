@@ -17,7 +17,7 @@ jobs:
         - NODE_ENV: test
         - REACT_APP_API_BASE_URL: http://api-test.privatekey.space
 
-    working_directory: ~/repo
+    working_directory: ~/privatekeyspace-core-web
 
     steps:
       - checkout
@@ -26,7 +26,9 @@ jobs:
           keys:
           - dependencies-{{ checksum "yarn.lock" }}
 
-      - run: make install
+      - run:
+        name: Install dependencies
+        command: make install
 
       - save_cache:
           paths:
@@ -34,4 +36,14 @@ jobs:
             - flow-typed/npm
           key: dependencies-{{ checksum "yarn.lock" }}
 
-      - run: make ci
+      - run:
+          name: Run lint
+          command: make lint
+
+      - run:
+          name: Run typecheck
+          command: make typecheck
+
+      - run:
+          name: Run tests
+          command: make test-ci
