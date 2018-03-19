@@ -13,6 +13,9 @@ jobs:
 
     docker:
       - image: circleci/node:9
+      - environment:
+        - NODE_ENV: test
+        - REACT_APP_API_BASE_URL: http://api-test.privatekey.space
 
     working_directory: ~/repo
 
