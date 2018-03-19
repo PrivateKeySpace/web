@@ -17,18 +17,19 @@ jobs:
         - NODE_ENV: test
         - REACT_APP_API_BASE_URL: http://api-test.privatekey.space
 
-    working_directory: ~/privatekeyspace-core-web
+    working_directory: ~/pks-web
 
     steps:
       - checkout
 
       - restore_cache:
           keys:
-          - dependencies-{{ checksum "yarn.lock" }}
+          - pks-web-dependencies-{{ checksum "yarn.lock" }}
+          - pks-web-dependencies-
 
       - run:
-        name: Install dependencies
-        command: make install
+          name: Install dependencies
+          command: make install
 
       - save_cache:
           paths:
