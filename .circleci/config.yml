@@ -35,7 +35,7 @@ jobs:
           paths:
             - node_modules
             - flow-typed/npm
-          key: dependencies-{{ checksum "yarn.lock" }}
+          key: pks-web-dependencies-{{ checksum "yarn.lock" }}
 
       - run:
           name: Run lint
