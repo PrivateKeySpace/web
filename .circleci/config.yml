@@ -13,22 +13,38 @@ jobs:
 
     docker:
       - image: circleci/node:9
+        environment:
+        - NODE_ENV: test
+        - REACT_APP_API_BASE_URL: http://api-test.privatekey.space
 
-    working_directory: ~/repo
+    working_directory: ~/pks-web
 
     steps:
       - checkout
 
       - restore_cache:
           keys:
-          - dependencies-{{ checksum "yarn.lock" }}
+          - pks-web-dependencies-{{ checksum "yarn.lock" }}
+          - pks-web-dependencies-
 
-      - run: make install
+      - run:
+          name: Install dependencies
+          command: make install
 
       - save_cache:
           paths:
             - node_modules
             - flow-typed/npm
-          key: dependencies-{{ checksum "yarn.lock" }}
+          key: pks-web-dependencies-{{ checksum "yarn.lock" }}
 
-      - run: make ci
+      - run:
+          name: Run lint
+          command: make lint
+
+      - run:
+          name: Run typecheck
+          command: make typecheck
+
+      - run:
+          name: Run tests
+          command: make test-ci

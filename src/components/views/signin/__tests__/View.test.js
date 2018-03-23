@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import { TestReduxProvider, TestRouter } from '../../__mocks__'
-import RootRouter from '../RootRouter'
+import { TestReduxProvider } from '../../../../__mocks__'
+import View from '../View'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()
@@ -15,9 +15,7 @@ afterEach(() => {
 it('renders without crashing and matches snapshot', () => {
   const wrapper = render(
     <TestReduxProvider>
-      <TestRouter>
-        <RootRouter />
-      </TestRouter>
+      <View />
     </TestReduxProvider>
   )
   expect(wrapper).toMatchSnapshot()
