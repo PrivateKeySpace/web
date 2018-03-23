@@ -24,7 +24,7 @@ function requestTrezorSignIn (hostIcon, challengeHidden, challengeVisual, callba
   const wrappedCallback = rawPayload => {
     const payload = (
       rawPayload.success
-        ? { publicKey: rawPayload.public_key, signature: rawPayload.signature, version: rawPayload.version }
+        ? { publicKey: rawPayload.public_key, signature: rawPayload.signature, implementation: `trezor/v${rawPayload.version}` }
         : null
     )
     callback(payload)
@@ -34,7 +34,7 @@ function requestTrezorSignIn (hostIcon, challengeHidden, challengeVisual, callba
 
 function requestDeviceSignIn (payload) {
   const hostIcon = null
-  const { sessionId, challengeHidden, challengeVisual } = payload
+  const { sessionKey, challengeHidden, challengeVisual } = payload
 
   const requestTrezorSignIn$ = Observable.bindCallback(requestTrezorSignIn)
 
@@ -42,7 +42,7 @@ function requestDeviceSignIn (payload) {
     requestTrezorSignIn$(hostIcon, challengeHidden, challengeVisual)
       .switchMap(payload =>
         payload !== null
-          ? Observable.of({ sessionId, ...payload })
+          ? Observable.of({ sessionKey, ...payload })
           : Observable.throw({ error: 'Failed to signin with hardware wallet.' })
       )
   )

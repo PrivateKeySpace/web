@@ -8,11 +8,13 @@ import { signIn } from '../actions'
 import epic from '../epic'
 
 const signInStartResponseMockBody = {
-  sessionId: '025405ad0ce3a973',
-  challengeHidden: '025405ad0ce3a973998acda781be7583183984cf59082154199af04c26f12fb5',
-  challengeVisual: (new Date()).toISOString()
+  sessionKey: '4D1W5PgGRCtMlN3iiQWcZNTPJGub9TmhdFzZD1WwIp6AGTbwD1DHkYBt6LSSfen6',
+  challengeVisual: (new Date()).toISOString(),
+  challengeHidden: 'a8f9bd246327f435ad1b84c8278755c6edae45814d47e7bf103056153563a522ec81adf88fffa9e3523013e1c8217a8e71fb9d5f4b8111fbc58e56377c8e32e0'
 }
-const signInCompleteResponseMockBody = { token: 'test' }
+const signInCompleteResponseMockBody = {
+  token: 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGFzaElkIjoiYWJjZDAxMjMiLCJpYXQiOjE1MjE2NDg4ODQsImV4cCI6MTUyMTY2Njg4NH0.PoYmNcCcJSaCA6i28MIOx04oTl5E4EbY3P2RiiLWWeFaYMQeDQLx2utADmvxbdLM5-ruae9ARHi0jFwi7acWrQ'
+}
 const signInResponseMockHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Content-type': 'application/json'
