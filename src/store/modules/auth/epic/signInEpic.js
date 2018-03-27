@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs'
-import { STATUS_PENDING, STATUS_SUCCESS, STATUS_FAILURE, METHOD_POST } from '../async/constants'
-import { reportStatus } from '../async/actions'
-import { apiRequest } from '../async/lib'
-import { SIGN_IN } from './actionsTypes'
+import { STATUS_PENDING, STATUS_SUCCESS, STATUS_FAILURE, METHOD_POST } from '../../async/constants'
+import { reportStatus } from '../../async/actions'
+import { apiRequest } from '../../async/lib/index'
+import { SIGN_IN } from '../actionsTypes'
 
 function emitSignInPending () {
   return Observable.merge(
@@ -85,9 +85,9 @@ function mapToSignInAction$ () {
     .catch(emitSignInFailed)
 }
 
-const epic = action$ =>
+const signInEpic = action$ =>
   action$
     .ofType(SIGN_IN)
     .switchMap(mapToSignInAction$)
 
-export default epic
+export default signInEpic
