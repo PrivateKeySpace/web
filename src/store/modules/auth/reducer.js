@@ -1,11 +1,8 @@
 import { SIGN_IN } from './actionsTypes'
 import { STATUS_SUCCESS } from '../async/constants'
-import { storage } from '../../../utils'
-
-const { token } = storage.get('auth', { token: null })
 
 export const initialState = {
-  token
+  token: null
 }
 
 function reducer (state = initialState, action) {

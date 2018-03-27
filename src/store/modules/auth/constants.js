@@ -1,4 +1,2 @@
 export const STORAGE_RECORD_KEY = 'auth'
-
-// One hour TTL, subject to change
-export const STORAGE_RECORD_TTL = 60 * 60 * 1000
+export const STORAGE_RECORD_TTL = (5 * 60) // 5 minutes, seconds

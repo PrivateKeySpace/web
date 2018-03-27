@@ -1,11 +1,8 @@
 import { Observable } from 'rxjs'
-import { STATUS_PENDING, STATUS_SUCCESS, STATUS_FAILURE, METHOD_POST } from '../async/constants'
-import { reportStatus } from '../async/actions'
-import { apiRequest } from '../async/lib'
-import { storage } from '../../../utils'
-import { SIGN_IN } from './actionsTypes'
-import { STORAGE_RECORD_KEY, STORAGE_RECORD_TTL } from './constants'
-import { initialState } from './reducer'
+import { STATUS_PENDING, STATUS_SUCCESS, STATUS_FAILURE, METHOD_POST } from '../../async/constants'
+import { reportStatus } from '../../async/actions'
+import { apiRequest } from '../../async/lib/index'
+import { SIGN_IN } from '../actionsTypes'
 
 function emitSignInPending () {
   return Observable.merge(
@@ -63,13 +60,6 @@ function completeSignInSession (payload) {
 }
 
 function emitSignInSucceed (payload) {
-  const { token } = payload
-  storage.set(
-    STORAGE_RECORD_KEY,
-    { ...initialState, token },
-    STORAGE_RECORD_TTL
-  )
-
   return Observable.merge(
     Observable.of(reportStatus({ type: SIGN_IN, status: STATUS_SUCCESS })),
     Observable.of({ type: `${SIGN_IN}/${STATUS_SUCCESS}`, payload })
@@ -95,9 +85,9 @@ function mapToSignInAction$ () {
     .catch(emitSignInFailed)
 }
 
-const epic = action$ =>
+const signInEpic = action$ =>
   action$
     .ofType(SIGN_IN)
     .switchMap(mapToSignInAction$)
 
-export default epic
+export default signInEpic

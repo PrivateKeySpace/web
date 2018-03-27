@@ -1,4 +1,4 @@
-class LocalStorageMock {
+class MockLocalStorage {
   store = {}
 
   clear () {
@@ -16,6 +16,6 @@ class LocalStorageMock {
   removeItem (key) {
     delete this.store[key]
   }
-};
+}
 
-global.localStorage = new LocalStorageMock()
+export default MockLocalStorage

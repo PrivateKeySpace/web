@@ -1,10 +1,10 @@
 const { localStorage } = window
 
 function set (key, value, ttl = null) {
-  const currentTime = Date.now()
+  const currentTime = Math.floor(Date.now() / 1000)
   const valueWithMetadata = {
     value,
-    expireTime: ttl !== null ? currentTime + ttl : null
+    expireTime: (ttl !== null) ? (currentTime + ttl) : null
   }
   const valueString = JSON.stringify(valueWithMetadata)
 
@@ -18,12 +18,12 @@ function get (key, defaultValue = null) {
     return defaultValue
   }
 
-  const currentTime = Date.now()
+  const currentTime = Math.floor(Date.now() / 1000)
   const valueWithMetadata = JSON.parse(valueString)
 
   if (
-    valueWithMetadata.expireTime !== null &&
-    valueWithMetadata.expireTime <= currentTime
+    (valueWithMetadata.expireTime !== null) &&
+    (valueWithMetadata.expireTime <= currentTime)
   ) {
     localStorage.removeItem(key)
     return defaultValue

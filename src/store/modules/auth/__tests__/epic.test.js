@@ -5,7 +5,7 @@ import { STATUS_PENDING, STATUS_SUCCESS, STATUS_FAILURE } from '../../async/cons
 import { reportStatus } from '../../async/actions'
 import { SIGN_IN } from '../actionsTypes'
 import { signIn } from '../actions'
-import epic from '../epic'
+import epic from '../epic/index'
 
 const signInStartResponseMockBody = {
   sessionKey: '4D1W5PgGRCtMlN3iiQWcZNTPJGub9TmhdFzZD1WwIp6AGTbwD1DHkYBt6LSSfen6',
