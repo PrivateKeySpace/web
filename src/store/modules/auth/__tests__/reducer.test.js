@@ -13,9 +13,11 @@ it('populates state with sign in payload on sign in success', () => {
 })
 
 it('sets token to null on sign out', () => {
-  const action = { type: SIGN_OUT }
+  const signInSuccessAction = { type: `${SIGN_IN}/${STATUS_SUCCESS}`, payload: { token: testToken } }
+  const signOutAction = { type: SIGN_OUT }
 
-  const newState = reducer({ ...initialState, token: testToken }, action)
+  const stateWithToken = reducer(initialState, signInSuccessAction)
+  const newState = reducer(stateWithToken, signOutAction)
 
   expect(newState).toHaveProperty('token', null)
 })
