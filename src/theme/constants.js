@@ -14,7 +14,8 @@ export const scale = [0]
 
 export const colors = {
   black: '#000000',
-  white: '#ffffff'
+  white: '#ffffff',
+  gray: '#cccccc'
 }
 
 export const fontSizes = []

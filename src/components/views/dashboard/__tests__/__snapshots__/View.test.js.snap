@@ -8,16 +8,36 @@ exports[`renders without crashing and matches snapshot 1`] = `
     class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContentContainer_e296pg"
   >
     <div
-      class="p0_3js4c0"
+      class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-container_q6bfv3"
     >
-      <p>
-        Dashboard
-      </p>
-      <button
-        type="button"
+      <div
+        class="navContainer_261wlx"
       >
-        Sign out
-      </button>
+        <div>
+          Main Nav
+        </div>
+      </div>
+      <div
+        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn"
+      >
+        <div
+          class="p0_3js4c0"
+        >
+          <div
+            class="container_16abvw0"
+          >
+            Dashboard Header
+          </div>
+          <p>
+            Dashboard
+          </p>
+          <button
+            type="button"
+          >
+            Sign out
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
