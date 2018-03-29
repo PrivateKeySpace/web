@@ -1,4 +1,4 @@
-import { SIGN_IN } from './actionsTypes'
+import { SIGN_IN, SIGN_OUT } from './actionsTypes'
 import { STATUS_SUCCESS } from '../async/constants'
 
 export const initialState = {
@@ -11,6 +11,9 @@ function reducer (state = initialState, action) {
   switch (type) {
     case `${SIGN_IN}/${STATUS_SUCCESS}`: {
       return { ...state, ...payload }
+    }
+    case SIGN_OUT: {
+      return { ...state, token: null }
     }
     default: {
       return state

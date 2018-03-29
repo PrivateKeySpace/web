@@ -10,7 +10,14 @@ exports[`renders without crashing and matches snapshot 1`] = `
     <div
       class="p0_3js4c0"
     >
-      Dashboard
+      <p>
+        Dashboard
+      </p>
+      <button
+        type="button"
+      >
+        Sign out
+      </button>
     </div>
   </div>
 </div>
