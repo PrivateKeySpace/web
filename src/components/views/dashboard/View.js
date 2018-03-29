@@ -10,17 +10,18 @@ const displayName = 'components/views/dashboard/View'
 
 const enhance = compose(
   setDisplayName(displayName),
-  connect(null, mapDispatch),
+  connect(undefined, mapDispatch),
   pure
 )
 
 function View (props) {
+  const { signOut } = props
   return (
     <BaseLayout
       mainContent={
         <div className={css(tx.p0)}>
           <p>Dashboard</p>
-          <button type='button' onClick={props.signOut}>Sign out</button>
+          <button type='button' onClick={signOut}>Sign out</button>
         </div>
       }
     />
