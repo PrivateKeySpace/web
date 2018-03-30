@@ -22,8 +22,11 @@ function View (props) {
     <DashboardLayout
       mainContent={
         <div className={css(tx.p0)}>
-          <DashboardHeader />
-          <p>Dashboard</p>
+          <DashboardHeader
+            headerContent={
+              <h1>Dashboard</h1>
+            }
+          />
           <button type='button' onClick={handleSignOut}>Sign out</button>
         </div>
       }

@@ -15,7 +15,7 @@ afterEach(() => {
 it('renders without crashing and matches snapshot', () => {
   const wrapper = render(
     <TestReduxProvider>
-      <TestRouter path='/test'>
+      <TestRouter path='/dashboard'>
         <Router />
       </TestRouter>
     </TestReduxProvider>

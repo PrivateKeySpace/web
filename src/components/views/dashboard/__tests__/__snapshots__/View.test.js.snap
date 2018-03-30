@@ -11,26 +11,132 @@ exports[`renders without crashing and matches snapshot 1`] = `
       class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-container_q6bfv3"
     >
       <div
-        class="navContainer_261wlx"
+        class="navContainer_dytzhz"
       >
         <div>
-          Main Nav
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/dashboard"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Dashboard
+            </div>
+          </a>
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Personal accounts
+            </div>
+          </a>
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Multisig accounts
+            </div>
+          </a>
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Cosigners
+            </div>
+          </a>
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Clients
+            </div>
+          </a>
+          <a
+            aria-current="true"
+            class="active_k554e1"
+            href="/"
+          >
+            <div
+              class="px3_1rzpu44-o_O-py1_1y1mp1n-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-wrap_1hbsadf"
+            >
+              Help
+            </div>
+          </a>
         </div>
       </div>
       <div
-        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn"
+        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContainer_1xmqyfw"
       >
         <div
           class="p0_3js4c0"
         >
           <div
-            class="container_16abvw0"
+            class="p4_1x929gn-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_1f2llne"
           >
-            Dashboard Header
+            <div
+              class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-width100_zdxht7-o_O-navbar_1u75k1v"
+            >
+              <div
+                class="walletName_4efw5a"
+              >
+                PKS Wallet
+              </div>
+              <div
+                class="mr2_18emzam-o_O-notifications_ls0e43"
+              >
+                🛎
+              </div>
+              <div
+                class="mx2_1o6grbo-o_O-separator_1imc4u5"
+              >
+                
+              </div>
+              <div
+                class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-deviceInfo_1f2mvon"
+              >
+                <div
+                  class=""
+                >
+                  Trezor Label
+                </div>
+                <div
+                  class=""
+                >
+                  connected
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                
+              </div>
+            </div>
+            <div
+              class="pb4_430e3s-o_O-headerContent_14ddvtv"
+            >
+              <h1>
+                Dashboard
+              </h1>
+            </div>
           </div>
-          <p>
-            Dashboard
-          </p>
           <button
             type="button"
           >

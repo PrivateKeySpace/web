@@ -10,12 +10,14 @@ export const breakpoints = {
 
 export const mediaQueries = getMediaQueries(breakpoints)
 
-export const scale = [0]
+export const scale = [0, 5, 10, 15, 25]
 
 export const colors = {
   black: '#000000',
   white: '#ffffff',
-  gray: '#cccccc'
+  gray: '#53595d',
+  darkGray: '#323a3e',
+  lightGray: '#acaeb0'
 }
 
 export const fontSizes = []
@@ -23,7 +25,7 @@ export const lineHeights = []
 
 export const letterSpacings = []
 
-export const fontFamilies = []
+export const fontFamilies = ['-apple-system, Helvetica, Segoe UI, sans-serif']
 
 export const borderColor = colors.black
 export const borderWidth = 1
