@@ -17,8 +17,6 @@ const enhance = compose(
   pure
 )
 
-const hiddenIfNull = item => !item && tx.hidden
-
 function Layout (props) {
   const {
     topBarContent,
@@ -28,7 +26,7 @@ function Layout (props) {
   } = props
   return (
     <div className={css(tx.flex, tx.flexDirectionColumn, sx.container)}>
-      <div className={css(hiddenIfNull(topBarContent), tx.textTransformUppercase, tx.fontWeight500, sx.topBarContainer)}>
+      <div className={css(tx.textTransformUppercase, tx.fontWeight500, sx.topBarContainer)}>
         {topBarContent}
       </div>
       <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionRow, tx.width100)}>

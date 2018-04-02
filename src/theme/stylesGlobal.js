@@ -1,8 +1,8 @@
-import { aphroditeGlobal, GLOBAL_STYLES_SELECTOR } from './helpers'
-import { mediaQueries, fontFamilies, colors, fontSizes, lineHeights } from './constants'
-
 import 'typeface-rubik'
 import 'linearicons'
+
+import { aphroditeGlobal, GLOBAL_STYLES_SELECTOR } from './helpers'
+import { mediaQueries, fontFamilies, colors, fontSizes, lineHeights } from './constants'
 
 const headings = {}
 fontSizes.forEach((fontSize, index) => {

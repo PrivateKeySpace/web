@@ -26,7 +26,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </a>
         <a
-          href="/personal"
+          href="/dashboard/personal"
         >
           <div
             class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
@@ -35,7 +35,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </a>
         <a
-          href="/multisig"
+          href="/dashboard/multisig"
         >
           <div
             class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
@@ -44,7 +44,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </a>
         <a
-          href="/cosigners"
+          href="/dashboard/cosigners"
         >
           <div
             class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
@@ -53,7 +53,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </a>
         <a
-          href="/clients"
+          href="/dashboard/clients"
         >
           <div
             class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
@@ -62,7 +62,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </a>
         <a
-          href="/help"
+          href="/dashboard/help"
         >
           <div
             class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
