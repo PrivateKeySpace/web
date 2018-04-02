@@ -1,11 +1,11 @@
 import React from 'react'
 import { compose, setDisplayName, setPropTypes, defaultProps, mapProps, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import BaseLayout from '../BaseLayout'
 import { defaultPropsSpec, propTypes, mapProps as propsMapper } from './lib'
 import tx from '../../../theme/styles'
 import sx from './styles'
 import MainNav from './components/MainNav'
+import DashboardHeader from './components/DashboardHeader/DashboardHeader'
 
 const displayName = 'components/layouts/DashboardLayout'
 
@@ -19,20 +19,32 @@ const enhance = compose(
 
 function Layout (props) {
   const {
+    topBarContent,
+    headerContent,
+    headerContentContainerProps,
     mainContent,
     mainContentContainerProps
   } = props
   return (
-    <BaseLayout mainContent={
-      <div className={css(tx.flex, tx.flexDirectionRow, sx.container)}>
+    <div className={css(tx.flex, tx.flexDirectionColumn, sx.container)}>
+      <div className={css(!topBarContent && tx.hidden, sx.topBarContainer)}>
+        {topBarContent}
+      </div>
+      <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionRow, tx.width100)}>
         <div className={css(sx.navContainer)}>
           <MainNav />
         </div>
-        <div {...mainContentContainerProps}>
-          {mainContent}
+        <div className={css(tx.flexGrow1, sx.mainContainer)}>
+          <DashboardHeader
+            headerContent={headerContent}
+            {...headerContentContainerProps}
+          />
+          <div {...mainContentContainerProps}>
+            {mainContent}
+          </div>
         </div>
       </div>
-    } />
+    </div>
   )
 }
 

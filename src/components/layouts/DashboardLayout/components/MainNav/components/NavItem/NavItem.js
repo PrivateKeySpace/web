@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import { css } from 'aphrodite/no-important'
 import tx from '../../../../../../../theme/styles'
 import sx from './styles'
@@ -7,9 +7,17 @@ import sx from './styles'
 function NavItem (props) {
   const { to, children } = props
   return (
-    <NavLink to={to} activeClassName={css(sx.active)}>
-      <div className={css(tx.px3, tx.py1, tx.flex, tx.alignItemsCenter, sx.wrap)}>{children}</div>
-    </NavLink>
+    <Route path={to}>
+      {({ match }) =>
+        <Link to={to}>
+          <div
+            className={css(tx.p3, tx.pl4, tx.flex, tx.alignItemsCenter, sx.wrap, match && sx.active)}
+          >
+            {children}
+          </div>
+        </Link>
+      }
+    </Route>
   )
 }
 

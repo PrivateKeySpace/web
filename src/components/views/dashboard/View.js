@@ -5,7 +5,6 @@ import { css } from 'aphrodite/no-important'
 import tx from '../../../theme/styles'
 import { DashboardLayout } from '../../layouts'
 import { mapDispatch, handlers } from './lib'
-import DashboardHeader from '../../elements/DashboardHeader'
 
 const displayName = 'components/views/dashboard/View'
 
@@ -20,13 +19,14 @@ function View (props) {
   const { handleSignOut } = props
   return (
     <DashboardLayout
+      topBarContent={
+        'Running in testnet'
+      }
+      headerContent={
+        <h1>Dashboard</h1>
+      }
       mainContent={
         <div className={css(tx.p0)}>
-          <DashboardHeader
-            headerContent={
-              <h1>Dashboard</h1>
-            }
-          />
           <button type='button' onClick={handleSignOut}>Sign out</button>
         </div>
       }

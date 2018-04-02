@@ -15,9 +15,13 @@ export const scale = [0, 5, 10, 15, 25]
 export const colors = {
   black: '#000000',
   white: '#ffffff',
-  gray: '#53595d',
-  darkGray: '#323a3e',
-  lightGray: '#acaeb0'
+  gray: '#666666',
+  darkBg: '#323a3e',
+  lightBg: '#f3f3f3',
+  danger: '#f45c3e',
+  warning: '#fcca60',
+  success: '#76ab26',
+  info: '#3ba6d8'
 }
 
 export const fontSizes = []
@@ -25,7 +29,7 @@ export const lineHeights = []
 
 export const letterSpacings = []
 
-export const fontFamilies = ['-apple-system, Helvetica, Segoe UI, sans-serif']
+export const fontFamilies = { primary: 'Helvetica, Segoe UI, sans-serif' }
 
 export const borderColor = colors.black
 export const borderWidth = 1

@@ -20,7 +20,7 @@ const stylesGlobal = aphroditeGlobal.StyleSheet.create({
     'html, body': {
       margin: 0,
       padding: 0,
-      fontFamily: fontFamilies[0],
+      fontFamily: fontFamilies.primary,
       color: colors.black,
       fontStyle: 'normal',
       fontWeight: 400,
@@ -35,7 +35,7 @@ const stylesGlobal = aphroditeGlobal.StyleSheet.create({
       padding: 0,
       fontStyle: 'normal',
       fontWeight: 400,
-      fontFamily: fontFamilies[0]
+      fontFamily: fontFamilies.primary
     },
     a: {
       textDecoration: 'none'

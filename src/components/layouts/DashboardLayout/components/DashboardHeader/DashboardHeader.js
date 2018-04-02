@@ -1,12 +1,12 @@
 import React from 'react'
 import { css } from 'aphrodite/no-important'
-import tx from '../../../theme/styles'
+import tx from '../../../../../theme/styles'
 import sx from './styles'
 
 function DashboardHeader (props) {
   const { headerContent } = props
   return (
-    <div className={css(tx.p4, tx.flex, tx.flexDirectionColumn, sx.container)}>
+    <div className={css(tx.p4, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
       <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.width100, sx.navbar)}>
         <div className={css(sx.walletName)}>PKS Wallet</div>
         <div className={css(tx.mr2, sx.notifications)}>🛎</div>

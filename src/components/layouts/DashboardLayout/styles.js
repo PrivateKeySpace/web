@@ -6,6 +6,14 @@ const styles = StyleSheet.create({
     height: '100vh',
     backgroundColor: colors.white
   },
+  topBarContainer: {
+    backgroundColor: colors.danger,
+    height: 30,
+    lineHeight: '30px',
+    textAlign: 'center',
+    color: colors.white,
+    textTransform: 'uppercase'
+  },
   navContainer: {
     width: 225,
     height: '100%'
