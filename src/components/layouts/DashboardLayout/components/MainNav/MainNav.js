@@ -1,14 +1,18 @@
 import React from 'react'
 import NavItem from './components/NavItem'
 
+const navItems = [
+  { name: 'Dashboard', path: '/dashboard' },
+  { name: 'Personal accounts', path: '/personal' },
+  { name: 'Multisig accounts', path: '/multisig' },
+  { name: 'Cosigners', path: '/cosigners' },
+  { name: 'Clients', path: '/clients' },
+  { name: 'Help', path: '/help' }
+]
+
 function MainNav (props) {
   return <div>
-    <NavItem to='/dashboard'>Dashboard</NavItem>
-    <NavItem to='/personal'>Personal accounts</NavItem>
-    <NavItem to='/multisig'>Multisig accounts</NavItem>
-    <NavItem to='/cosigners'>Cosigners</NavItem>
-    <NavItem to='/clients'>Clients</NavItem>
-    <NavItem to='/help'>Help</NavItem>
+    {navItems.map(navItem => <NavItem to={navItem.path}>{navItem.name}</NavItem>)}
   </div>
 }
 
