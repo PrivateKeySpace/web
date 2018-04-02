@@ -4,8 +4,8 @@ import { colors } from '../../../../../../../theme/constants'
 const styles = StyleSheet.create({
   wrap: {
     height: 55,
-    textTransform: 'uppercase',
     color: colors.gray,
+
     ':hover': {
       backgroundColor: colors.lightBg
     }

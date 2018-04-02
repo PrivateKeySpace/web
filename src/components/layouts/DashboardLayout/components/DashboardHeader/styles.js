@@ -10,9 +10,6 @@ const styles = StyleSheet.create({
   navbar: {
     height: 36
   },
-  walletName: {
-    textTransform: 'uppercase'
-  },
   notifications: {
     marginLeft: 'auto'
   },
@@ -23,6 +20,17 @@ const styles = StyleSheet.create({
   },
   deviceInfo: {
     alignItems: 'flex-end'
+  },
+  deviceName: {
+    color: colors.white,
+    fontSize: 14
+  },
+  deviceStatus: {
+    color: colors.gray,
+    fontSize: 10
+  },
+  dropdownButton: {
+    color: colors.gray
   },
   headerContent: {
     marginTop: 'auto'

@@ -7,15 +7,15 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white
   },
   topBarContainer: {
-    backgroundColor: colors.danger,
     height: 30,
-    lineHeight: '30px',
-    textAlign: 'center',
+    backgroundColor: colors.danger,
     color: colors.white,
-    textTransform: 'uppercase'
+    fontSize: 13,
+    textAlign: 'center',
+    lineHeight: '30px'
   },
   navContainer: {
-    width: 225,
+    width: 220,
     height: '100%'
   },
   mainContainer: {

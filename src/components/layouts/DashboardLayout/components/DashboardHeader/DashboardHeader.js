@@ -8,16 +8,20 @@ function DashboardHeader (props) {
   return (
     <div className={css(tx.p4, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
       <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.width100, sx.navbar)}>
-        <div className={css(sx.walletName)}>PKS Wallet</div>
-        <div className={css(tx.mr2, sx.notifications)}>🛎</div>
-        <div className={css(tx.mx2, sx.separator)} />
-        <div className={css(tx.flex, tx.flexDirectionColumn, sx.deviceInfo)}>
-          <div className={css(sx.deviceName)}>Trezor Label</div>
-          <div className={css(sx.deviceStatus)}>connected</div>
+        <div className={css(tx.textTransformUppercase, tx.fontSize1)}>PKS Wallet</div>
+        <div className={css(tx.mr4, tx.fontSize1, sx.notifications)}>
+          <span className='lnr lnr-alarm' />
         </div>
-        <div className={css(sx.dropdownButton)} />
+        <div className={css(sx.separator)} />
+        <div className={css(tx.ml4, tx.flex, tx.flexDirectionColumn, sx.deviceInfo)}>
+          <div className={css(tx.textTransformUppercase, sx.deviceName)}>Trezor Label</div>
+          <div className={css(tx.textTransformUppercase, sx.deviceStatus)}>connected</div>
+        </div>
+        <div className={css(tx.flex, tx.alignItemsCenter, tx.justifyContentCenter, tx.px2, tx.ml1, tx.height100, sx.dropdownButton)}>
+          <span className='lnr lnr-chevron-down' />
+        </div>
       </div>
-      <div className={css(tx.pb4, sx.headerContent)}>
+      <div className={css(tx.pb3, sx.headerContent)}>
         {headerContent}
       </div>
     </div>

@@ -12,7 +12,11 @@ const navItems = [
 
 function MainNav (props) {
   return <div>
-    {navItems.map(navItem => <NavItem to={navItem.path}>{navItem.name}</NavItem>)}
+    {navItems.map(navItem => (
+      <NavItem key={navItem.path} to={navItem.path}>
+        {navItem.name}
+      </NavItem>
+    ))}
   </div>
 }
 

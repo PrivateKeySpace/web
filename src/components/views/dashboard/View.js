@@ -23,7 +23,7 @@ function View (props) {
         'Running in testnet'
       }
       headerContent={
-        <h1>Dashboard</h1>
+        <h1 className={css(tx.fontWeight300)}>Dashboard</h1>
       }
       mainContent={
         <div className={css(tx.p0)}>
