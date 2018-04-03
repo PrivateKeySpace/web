@@ -26,6 +26,9 @@ stylesSpec.justifyContentFlexEnd = { justifyContent: 'flex-end' }
 stylesSpec.width100 = { width: '100%' }
 stylesSpec.height100 = { height: '100%' }
 
+/*
+.fontFamily{0-1}
+ */
 {
   const fontFamiliesNames = Object.keys(fontFamilies)
   fontFamiliesNames.forEach(fontFamilyName => {

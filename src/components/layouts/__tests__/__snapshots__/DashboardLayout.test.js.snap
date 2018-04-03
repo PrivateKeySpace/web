@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with no top bar defined, does not crash and matches snapshot 1`] = `
+<div
+  class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_q6bfv3"
+>
+  <div
+    class="fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
+  >
+    
+  </div>
+  <div
+    class="flex_jro6t0-o_O-flexGrow1_t0tx82-o_O-flexDirectionRow_qb00m9-o_O-width100_zdxht7"
+  >
+    <div
+      class="navContainer_ng807m"
+    >
+      <div>
+        <a
+          href="/dashboard"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+          >
+            Dashboard
+          </div>
+        </a>
+        <a
+          href="/dashboard/personal"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Personal accounts
+          </div>
+        </a>
+        <a
+          href="/dashboard/multisig"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Multisig accounts
+          </div>
+        </a>
+        <a
+          href="/dashboard/cosigners"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Cosigners
+          </div>
+        </a>
+        <a
+          href="/dashboard/clients"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Clients
+          </div>
+        </a>
+        <a
+          href="/dashboard/help"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Help
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="flexGrow1_t0tx82-o_O-mainContainer_1xmqyfw"
+    >
+      <div
+        class="p4_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
+      >
+        <div
+          class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-width100_zdxht7-o_O-navbar_1u75k1v"
+        >
+          <div
+            class="textTransformUppercase_4efw5a-o_O-fontSize1_3kvou9"
+          >
+            PKS Wallet
+          </div>
+          <div
+            class="mr4_1wkefyg-o_O-fontSize1_3kvou9-o_O-notifications_ls0e43"
+          >
+            <span
+              class="lnr lnr-alarm"
+            >
+              
+            </span>
+          </div>
+          <div
+            class="separator_xrxmxy"
+          >
+            
+          </div>
+          <div
+            class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
+          >
+            <div
+              class="textTransformUppercase_4efw5a-o_O-deviceName_1pe4kle"
+            >
+              Trezor Label
+            </div>
+            <div
+              class="textTransformUppercase_4efw5a-o_O-deviceStatus_z7nj5y"
+            >
+              connected
+            </div>
+          </div>
+          <div
+            class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-px2_6ebohg-o_O-ml1_1dn7v29-o_O-height100_1yfus1e-o_O-dropdownButton_1gb1rbb"
+          >
+            <span
+              class="lnr lnr-chevron-down"
+            >
+              
+            </span>
+          </div>
+        </div>
+        <div
+          class="pb3_1a70m23-o_O-headerContent_14ddvtv"
+        >
+          <h1>
+            Test header
+          </h1>
+        </div>
+      </div>
+      <div
+        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContainer_1xmqyfw"
+      >
+        <div>
+          Test main content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<div
+  class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_q6bfv3"
+>
+  <div
+    class="fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
+  >
+    Test top bar
+  </div>
+  <div
+    class="flex_jro6t0-o_O-flexGrow1_t0tx82-o_O-flexDirectionRow_qb00m9-o_O-width100_zdxht7"
+  >
+    <div
+      class="navContainer_ng807m"
+    >
+      <div>
+        <a
+          href="/dashboard"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+          >
+            Dashboard
+          </div>
+        </a>
+        <a
+          href="/dashboard/personal"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Personal accounts
+          </div>
+        </a>
+        <a
+          href="/dashboard/multisig"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Multisig accounts
+          </div>
+        </a>
+        <a
+          href="/dashboard/cosigners"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Cosigners
+          </div>
+        </a>
+        <a
+          href="/dashboard/clients"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Clients
+          </div>
+        </a>
+        <a
+          href="/dashboard/help"
+        >
+          <div
+            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+          >
+            Help
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="flexGrow1_t0tx82-o_O-mainContainer_1xmqyfw"
+    >
+      <div
+        class="p4_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
+      >
+        <div
+          class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-width100_zdxht7-o_O-navbar_1u75k1v"
+        >
+          <div
+            class="textTransformUppercase_4efw5a-o_O-fontSize1_3kvou9"
+          >
+            PKS Wallet
+          </div>
+          <div
+            class="mr4_1wkefyg-o_O-fontSize1_3kvou9-o_O-notifications_ls0e43"
+          >
+            <span
+              class="lnr lnr-alarm"
+            >
+              
+            </span>
+          </div>
+          <div
+            class="separator_xrxmxy"
+          >
+            
+          </div>
+          <div
+            class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
+          >
+            <div
+              class="textTransformUppercase_4efw5a-o_O-deviceName_1pe4kle"
+            >
+              Trezor Label
+            </div>
+            <div
+              class="textTransformUppercase_4efw5a-o_O-deviceStatus_z7nj5y"
+            >
+              connected
+            </div>
+          </div>
+          <div
+            class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-px2_6ebohg-o_O-ml1_1dn7v29-o_O-height100_1yfus1e-o_O-dropdownButton_1gb1rbb"
+          >
+            <span
+              class="lnr lnr-chevron-down"
+            >
+              
+            </span>
+          </div>
+        </div>
+        <div
+          class="pb3_1a70m23-o_O-headerContent_14ddvtv"
+        >
+          <h1>
+            Test header
+          </h1>
+        </div>
+      </div>
+      <div
+        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContainer_1xmqyfw"
+      >
+        <div>
+          Test main content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
