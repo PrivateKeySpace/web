@@ -1,5 +1,5 @@
 import React from 'react'
-import { compose, setDisplayName, mapProps } from 'recompose'
+import { compose, setDisplayName, mapProps, pure } from 'recompose'
 import { withRouter } from 'react-router'
 import NavItem from './components/NavItem'
 import { mapProps as propsMapper } from './lib'
@@ -18,7 +18,8 @@ const displayName = 'components/layouts/DashboardLayout/components/MainNav'
 const enhance = compose(
   setDisplayName(displayName),
   withRouter,
-  mapProps(propsMapper)
+  mapProps(propsMapper),
+  pure
 )
 
 function MainNav (props) {
@@ -26,7 +27,11 @@ function MainNav (props) {
 
   return <div>
     {navItems.map(navItem => (
-      <NavItem key={navItem.path} to={navItem.path} isActive={navItem.path === activePath}>
+      <NavItem
+        key={navItem.path}
+        to={navItem.path}
+        isActive={navItem.path === activePath}
+      >
         {navItem.name}
       </NavItem>
     ))}

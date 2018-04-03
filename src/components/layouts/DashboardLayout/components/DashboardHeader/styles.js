@@ -18,9 +18,6 @@ const styles = StyleSheet.create({
     height: '75%',
     backgroundColor: colors.gray
   },
-  deviceInfo: {
-    alignItems: 'flex-end'
-  },
   deviceName: {
     color: colors.white,
     fontSize: 14

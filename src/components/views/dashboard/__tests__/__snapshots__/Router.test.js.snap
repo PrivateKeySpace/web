@@ -5,7 +5,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
   class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_q6bfv3"
 >
   <div
-    class="textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
+    class="fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
   >
     Running in testnet
   </div>
@@ -101,7 +101,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
             
           </div>
           <div
-            class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-deviceInfo_1f2mvon"
+            class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
           >
             <div
               class="textTransformUppercase_4efw5a-o_O-deviceName_1pe4kle"

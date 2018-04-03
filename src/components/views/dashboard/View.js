@@ -29,7 +29,9 @@ function View (props) {
       }
       mainContent={
         <div className={css(tx.p0)}>
-          <button type='button' onClick={handleSignOut}>Sign out</button>
+          <button type='button' onClick={handleSignOut}>
+            Sign out
+          </button>
         </div>
       }
     />

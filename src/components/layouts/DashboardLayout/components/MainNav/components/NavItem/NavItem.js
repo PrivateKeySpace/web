@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { compose, setPropTypes } from 'recompose'
+import { compose, setPropTypes, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import { propTypes } from './lib'
 import tx from '../../../../../../../theme/styles'
@@ -9,7 +9,8 @@ import sx from './styles'
 const activeClassNames = [tx.fontWeight500, sx.active]
 
 const enhance = compose(
-  setPropTypes(propTypes)
+  setPropTypes(propTypes),
+  pure
 )
 
 function NavItem (props) {
