@@ -5,7 +5,7 @@ import { defaultPropsSpec, propTypes, mapProps as propsMapper } from './lib'
 import tx from '../../../theme/styles'
 import sx from './styles'
 import MainNav from './components/MainNav'
-import DashboardHeader from './components/DashboardHeader/DashboardHeader'
+import DashboardHeader from './components/DashboardHeader'
 
 const displayName = 'components/layouts/DashboardLayout'
 

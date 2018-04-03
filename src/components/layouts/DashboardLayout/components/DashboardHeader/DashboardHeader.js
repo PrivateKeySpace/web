@@ -1,7 +1,14 @@
 import React from 'react'
+import { compose, setDisplayName } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import tx from '../../../../../theme/styles'
 import sx from './styles'
+
+const displayName = 'components/layouts/DashboardLayout/components/DashboardHeader'
+
+const enhance = compose(
+  setDisplayName(displayName)
+)
 
 function DashboardHeader (props) {
   const { headerContent } = props
@@ -34,4 +41,4 @@ function DashboardHeader (props) {
   )
 }
 
-export default DashboardHeader
+export default enhance(DashboardHeader)

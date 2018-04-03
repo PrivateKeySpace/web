@@ -7,7 +7,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
   <div
     class="fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
   >
-    Running in testnet
+    Running in TestNet
   </div>
   <div
     class="flex_jro6t0-o_O-flexGrow1_t0tx82-o_O-flexDirectionRow_qb00m9-o_O-width100_zdxht7"

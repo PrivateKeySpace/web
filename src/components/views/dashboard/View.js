@@ -20,7 +20,7 @@ function View (props) {
   return (
     <DashboardLayout
       topBarContent={
-        'Running in testnet'
+        'Running in TestNet'
       }
       headerContent={
         <h1 className={css(tx.fontWeight300)}>
