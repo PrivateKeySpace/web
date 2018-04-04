@@ -3,7 +3,7 @@ import { connectedRouterRedirect } from 'redux-auth-wrapper/history4/redirect'
 
 const withNotAuthenticatedOnlyRedirect = connectedRouterRedirect({
   wrapperDisplayName: 'components/helpers/withNotAuthenticatedOnlyRedirect',
-  redirectPath: '/dashboard',
+  redirectPath: '/wallet/dashboard',
   allowRedirectBack: false,
   authenticatedSelector: state => !get(state, 'auth.token', null)
 })

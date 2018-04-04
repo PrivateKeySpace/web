@@ -3,7 +3,7 @@ import { withRouter } from 'react-router'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { compose, setDisplayName, pure } from 'recompose'
 import { Router as SignInRouter } from './views/signin'
-import { Router as DashboardRouter } from './views/dashboard'
+import { Router as WalletRouter } from './views/wallet'
 
 import { withNotAuthenticatedOnlyRedirect, withAuthenticatedOnlyRedirect } from './helpers'
 
@@ -28,8 +28,8 @@ function RootRouter () {
         component={withNotAuthenticatedOnlyRedirect(SignInRouter)}
       />
       <Route
-        path='/dashboard'
-        component={withAuthenticatedOnlyRedirect(DashboardRouter)}
+        path='/wallet'
+        component={withAuthenticatedOnlyRedirect(WalletRouter)}
       />
     </Switch>
   )
