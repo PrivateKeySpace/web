@@ -4,14 +4,14 @@ import { css } from 'aphrodite/no-important'
 import tx from '../../../../../theme/styles'
 import sx from './styles'
 
-const displayName = 'components/layouts/WalletLayout/components/WalletHeader'
+const displayName = 'components/layouts/WalletLayout/components/Header'
 
 const enhance = compose(
   setDisplayName(displayName),
   pure
 )
 
-function WalletHeader (props) {
+function Header (props) {
   const { headerContent } = props
   return (
     <div className={css(tx.p4, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
@@ -42,4 +42,4 @@ function WalletHeader (props) {
   )
 }
 
-export default enhance(WalletHeader)
+export default enhance(Header)

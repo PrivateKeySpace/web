@@ -1,8 +1,8 @@
 import React from 'react'
 import { compose, setDisplayName, mapProps, pure, defaultProps } from 'recompose'
 import { withRouter } from 'react-router'
-import NavItem from './components/NavItem'
 import { mapProps as propsMapper, defaultPropsSpec } from './lib'
+import { Item } from './components'
 
 const navItems = [
   { name: 'Dashboard', path: '/wallet/dashboard' },
@@ -13,7 +13,7 @@ const navItems = [
   { name: 'Help', path: '/wallet/help' }
 ]
 
-const displayName = 'components/layouts/WalletLayout/components/WalletNav'
+const displayName = 'components/layouts/WalletLayout/components/Nav'
 
 const enhance = compose(
   setDisplayName(displayName),
@@ -23,20 +23,20 @@ const enhance = compose(
   pure
 )
 
-function WalletNav (props) {
+function Nav (props) {
   const { activePath } = props
 
   return <nav>
     {navItems.map(navItem => (
-      <NavItem
+      <Item
         key={navItem.path}
         to={navItem.path}
         isActive={navItem.path === activePath}
       >
         {navItem.name}
-      </NavItem>
+      </Item>
     ))}
   </nav>
 }
 
-export default enhance(WalletNav)
+export default enhance(Nav)

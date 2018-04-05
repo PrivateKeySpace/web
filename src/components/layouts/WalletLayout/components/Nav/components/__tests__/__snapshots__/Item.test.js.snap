@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders active NavItem without crashing and matches snapshot 1`] = `
+exports[`renders active Item without crashing and matches snapshot 1`] = `
 <a
   href="/testRoute"
 >
@@ -12,7 +12,7 @@ exports[`renders active NavItem without crashing and matches snapshot 1`] = `
 </a>
 `;
 
-exports[`renders not active NavItem without crashing and matches snapshot 1`] = `
+exports[`renders not active Item without crashing and matches snapshot 1`] = `
 <a
   href="/testRoute"
 >

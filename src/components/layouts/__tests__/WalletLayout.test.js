@@ -21,7 +21,7 @@ it('renders without crashing and matches snapshot', () => {
         }
         headerContent={
           <h1>
-          Test header
+            Test header
           </h1>
         }
         mainContent={
@@ -41,7 +41,7 @@ it('renders correctly with no top bar defined, does not crash and matches snapsh
       <WalletLayout
         headerContent={
           <h1>
-          Test header
+            Test header
           </h1>
         }
         mainContent={

@@ -3,9 +3,8 @@ import { compose, setDisplayName, setPropTypes, defaultProps, mapProps, pure } f
 import { css } from 'aphrodite/no-important'
 import { defaultPropsSpec, propTypes, mapProps as propsMapper } from './lib'
 import tx from '../../../theme/styles'
+import { Nav, Header } from './components'
 import sx from './styles'
-import WalletNav from './components/WalletNav'
-import WalletHeader from './components/WalletHeader'
 
 const displayName = 'components/layouts/WalletLayout'
 
@@ -31,10 +30,10 @@ function Layout (props) {
       </div>
       <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionRow, tx.width100)}>
         <div className={css(sx.navContainer)}>
-          <WalletNav />
+          <Nav />
         </div>
         <div className={css(tx.flexGrow1, sx.mainContainer)}>
-          <WalletHeader
+          <Header
             headerContent={headerContent}
           />
           <div {...mainContentContainerProps}>

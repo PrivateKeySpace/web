@@ -13,7 +13,7 @@ const enhance = compose(
   pure
 )
 
-function NavItem (props) {
+function Item (props) {
   const { to, children, isActive } = props
 
   return (
@@ -27,4 +27,4 @@ function NavItem (props) {
   )
 }
 
-export default enhance(NavItem)
+export default enhance(Item)
