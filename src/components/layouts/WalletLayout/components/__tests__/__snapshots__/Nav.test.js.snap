@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<nav>
+  <a
+    href="/wallet/dashboard"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+    >
+      Dashboard
+    </div>
+  </a>
+  <a
+    href="/wallet/personal"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+    >
+      Personal accounts
+    </div>
+  </a>
+  <a
+    href="/wallet/multisig"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+    >
+      Multisig accounts
+    </div>
+  </a>
+  <a
+    href="/wallet/cosigners"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+    >
+      Cosigners
+    </div>
+  </a>
+  <a
+    href="/wallet/clients"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+    >
+      Clients
+    </div>
+  </a>
+  <a
+    href="/wallet/help"
+  >
+    <div
+      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+    >
+      Help
+    </div>
+  </a>
+</nav>
+`;
