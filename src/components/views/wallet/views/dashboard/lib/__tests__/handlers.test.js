@@ -1,10 +1,9 @@
 import handlers from '../handlers'
 
-it('should call props signOut when handleSignOut is called', () => {
+it('should call signOut prop when handleSignOut handler is called', () => {
   const props = { signOut: jest.fn() }
-  const { handleSignOut } = handlers
-  const handler = handleSignOut(props)
-  handler()
+
+  handlers.handleSignOut(props)()
 
   expect(props.signOut).toBeCalled()
 })
