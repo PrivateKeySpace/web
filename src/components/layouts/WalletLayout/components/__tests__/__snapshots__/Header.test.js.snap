@@ -2,24 +2,33 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <div
-  class="p4_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
+  class="p5_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
 >
   <div
     class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-width100_zdxht7-o_O-navbar_1u75k1v"
   >
-    <div
-      class="textTransformUppercase_4efw5a-o_O-fontSize1_3kvou9"
+    <h2
+      class="textTransformUppercase_4efw5a"
     >
       PKS Wallet
-    </div>
+    </h2>
     <div
-      class="mr4_1wkefyg-o_O-fontSize1_3kvou9-o_O-notifications_ls0e43"
+      class="mr4_kh8dwt-o_O-fontSize1_3kvou9-o_O-notifications_1xsmo7c"
     >
       <span
         class="lnr lnr-alarm"
       >
         
       </span>
+      <div
+        class="notificationCounterWrap_1k9zd85"
+      >
+        <div
+          class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-notificationCounter_e0aaj6"
+        >
+          5
+        </div>
+      </div>
     </div>
     <div
       class="separator_xrxmxy"
@@ -27,7 +36,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
       
     </div>
     <div
-      class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
+      class="ml4_1pgo4wm-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
     >
       <div
         class="textTransformUppercase_4efw5a-o_O-deviceName_1pe4kle"

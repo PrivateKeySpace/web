@@ -2,7 +2,7 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <div
-  class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_q6bfv3"
+  class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_ou6sx1"
 >
   <div
     class="fontWeight500_gt7myn-o_O-topBarContainer_m819ei"
@@ -20,7 +20,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/dashboard"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
           >
             Dashboard
           </div>
@@ -29,7 +29,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/personal"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
           >
             Personal accounts
           </div>
@@ -38,7 +38,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/multisig"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
           >
             Multisig accounts
           </div>
@@ -47,7 +47,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/cosigners"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
           >
             Cosigners
           </div>
@@ -56,7 +56,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/clients"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
           >
             Clients
           </div>
@@ -65,7 +65,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           href="/wallet/help"
         >
           <div
-            class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+            class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
           >
             Help
           </div>
@@ -76,24 +76,33 @@ exports[`renders without crashing and matches snapshot 1`] = `
       class="flexGrow1_t0tx82-o_O-mainContainer_1xmqyfw"
     >
       <div
-        class="p4_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
+        class="p5_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
       >
         <div
           class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-width100_zdxht7-o_O-navbar_1u75k1v"
         >
-          <div
-            class="textTransformUppercase_4efw5a-o_O-fontSize1_3kvou9"
+          <h2
+            class="textTransformUppercase_4efw5a"
           >
             PKS Wallet
-          </div>
+          </h2>
           <div
-            class="mr4_1wkefyg-o_O-fontSize1_3kvou9-o_O-notifications_ls0e43"
+            class="mr4_kh8dwt-o_O-fontSize1_3kvou9-o_O-notifications_1xsmo7c"
           >
             <span
               class="lnr lnr-alarm"
             >
               
             </span>
+            <div
+              class="notificationCounterWrap_1k9zd85"
+            >
+              <div
+                class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-notificationCounter_e0aaj6"
+              >
+                5
+              </div>
+            </div>
           </div>
           <div
             class="separator_xrxmxy"
@@ -101,7 +110,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
             
           </div>
           <div
-            class="ml4_2ffngz-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
+            class="ml4_1pgo4wm-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsFlexEnd_1f2mvon"
           >
             <div
               class="textTransformUppercase_4efw5a-o_O-deviceName_1pe4kle"
@@ -127,26 +136,143 @@ exports[`renders without crashing and matches snapshot 1`] = `
         <div
           class="pb3_1a70m23-o_O-content_14ddvtv"
         >
-          <h1
-            class="fontWeight300_n2wlx5"
+          <div
+            class="flex_jro6t0-o_O-width100_zdxht7-o_O-flexDirectionRow_qb00m9-o_O-justifyContentSpaceBetween_1sh8tod"
           >
-            Dashboard
-          </h1>
+            <h1
+              class="fontWeight300_n2wlx5"
+            >
+              Dashboard
+            </h1>
+            <button
+              class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr"
+              type="button"
+            >
+              Sign Out
+            </button>
+          </div>
         </div>
       </div>
       <div
-        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContainer_1xmqyfw"
+        class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-p5_1x929gn-o_O-mainContainer_1xmqyfw"
       >
         <div
           class="p0_3js4c0"
         >
-          <button
-            type="button"
+          <div
+            class="mb5_33xq1z-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
           >
-            Sign out
-          </button>
+            <div
+              class="flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+            >
+              <div
+                class="mr4_kh8dwt-o_O-pt1_vsuzfi-o_O-icon_nkv9vo"
+              >
+                <span
+                  class="lnr lnr-briefcase"
+                >
+                  
+                </span>
+              </div>
+              <div
+                class=""
+              >
+                <div
+                  class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-accountName_1yz1w90"
+                >
+                  Personal Account
+                </div>
+                <div
+                  class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt"
+                >
+                  <div
+                    class="fontWeight400_tt122m-o_O-usdBalance_1fhummc"
+                  >
+                    2500 USD
+                  </div>
+                  <div
+                    class="ml2_y4bb05-o_O-btcBalance_1yz1w90"
+                  >
+                    0.5
+                    <br>
+                      
+                    </br>
+                    BTC
+                  </div>
+                </div>
+                <div>
+                  View all personal accounts
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2
+            class="textTransformUppercase_4efw5a-o_O-mb2_3x2xkx"
+          >
+            Approval Requests
+          </h2>
+          <table
+            class="width100_zdxht7-o_O-table_zuaglh"
+          >
+            <thead>
+              <tr>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  Date
+                </th>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  Status
+                </th>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  Created By
+                </th>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  To
+                </th>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  Amount
+                </th>
+                <th
+                  class="fontWeight400_tt122m-o_O-textAlignLeft_e4x16a-o_O-textTransformUppercase_4efw5a-o_O-px2_6ebohg-o_O-th_4acr85"
+                >
+                  Reason
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  colspan="6"
+                >
+                  <div
+                    class="width100_zdxht7-o_O-flex_jro6t0-o_O-justifyContentCenter_agrn11-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-noRows_a5gpv3"
+                  >
+                    No approval requests yet
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+      <footer
+        class="px5_1g0n6pg"
+      >
+        <div
+          class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-footer_r1wilx"
+        >
+          2018 © PKS Wallet. All rights reserved.
+        </div>
+      </footer>
     </div>
   </div>
 </div>

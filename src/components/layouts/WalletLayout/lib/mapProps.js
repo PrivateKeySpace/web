@@ -10,7 +10,7 @@ function mapProps (props) {
     mainContentContainerProps: {
       ...mainContentContainerProps,
       className: classNames(
-        css(tx.flexGrow1, tx.flexShrink0, sx.mainContainer),
+        css(tx.flexGrow1, tx.flexShrink0, tx.p5, sx.mainContainer),
         mainContentContainerProps.className
       )
     }

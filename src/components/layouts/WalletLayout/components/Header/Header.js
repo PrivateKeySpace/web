@@ -14,13 +14,16 @@ const enhance = compose(
 function Header (props) {
   const { content } = props
   return (
-    <div className={css(tx.p4, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
+    <div className={css(tx.p5, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
       <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.width100, sx.navbar)}>
-        <div className={css(tx.textTransformUppercase, tx.fontSize1)}>
+        <h2 className={css(tx.textTransformUppercase)}>
           PKS Wallet
-        </div>
+        </h2>
         <div className={css(tx.mr4, tx.fontSize1, sx.notifications)}>
           <span className='lnr lnr-alarm' />
+          <div className={css(sx.notificationCounterWrap)}>
+            <div className={css(tx.flex, tx.alignItemsCenter, tx.justifyContentCenter, sx.notificationCounter)}>5</div>
+          </div>
         </div>
         <div className={css(sx.separator)} />
         <div className={css(tx.ml4, tx.flex, tx.flexDirectionColumn, tx.alignItemsFlexEnd)}>

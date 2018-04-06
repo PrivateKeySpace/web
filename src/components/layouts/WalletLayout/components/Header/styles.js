@@ -11,7 +11,26 @@ const styles = StyleSheet.create({
     height: 36
   },
   notifications: {
+    position: 'relative',
     marginLeft: 'auto'
+  },
+  notificationCounterWrap: {
+    position: 'absolute',
+    bottom: -5,
+    right: -10,
+    width: 20,
+    height: 20,
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)'
+  },
+  notificationCounter: {
+    backgroundColor: colors.danger,
+    width: 16,
+    height: 16,
+    borderRadius: 16,
+    margin: 2,
+    fontSize: 10,
+    lineHeight: '10px'
   },
   separator: {
     width: 1,

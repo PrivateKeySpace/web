@@ -19,7 +19,7 @@ function Item (props) {
   return (
     <Link to={to}>
       <div
-        className={css(tx.p3, tx.pl4, tx.flex, tx.alignItemsCenter, tx.textTransformUppercase, tx.fontWeight400, sx.wrap, isActive && activeClassNames)}
+        className={css(tx.p3, tx.pl5, tx.flex, tx.alignItemsCenter, tx.textTransformUppercase, tx.fontWeight400, sx.wrap, isActive && activeClassNames)}
       >
         {children}
       </div>
