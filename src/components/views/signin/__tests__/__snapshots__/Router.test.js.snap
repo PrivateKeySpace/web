@@ -2,20 +2,12 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <div
-  class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-container_ra7z6c"
+  class="p0_3js4c0"
 >
-  <div
-    class="flexGrow1_t0tx82-o_O-flexShrink0_fz3zdn-o_O-mainContentContainer_e296pg"
+  <button
+    type="button"
   >
-    <div
-      class="p0_3js4c0"
-    >
-      <button
-        type="button"
-      >
-        Log in with Trezor
-      </button>
-    </div>
-  </div>
+    Log in with Trezor
+  </button>
 </div>
 `;

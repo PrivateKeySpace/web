@@ -4,7 +4,7 @@ import { Route } from 'react-router'
 import { compose, setDisplayName, pure } from 'recompose'
 import { View } from '.'
 
-const displayName = 'components/views/signin/Router'
+const displayName = 'components/views/wallet/Router'
 
 const enhance = compose(
   setDisplayName(displayName),
@@ -14,7 +14,7 @@ const enhance = compose(
 function Router () {
   return (
     <Route
-      path='/signin'
+      path='/wallet/dashboard'
       component={View}
     />
   )

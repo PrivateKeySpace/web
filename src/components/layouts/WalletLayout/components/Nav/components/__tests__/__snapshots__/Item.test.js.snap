@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders active Item without crashing and matches snapshot 1`] = `
+<a
+  href="/testRoute"
+>
+  <div
+    class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+  >
+    Test Item
+  </div>
+</a>
+`;
+
+exports[`renders not active Item without crashing and matches snapshot 1`] = `
+<a
+  href="/testRoute"
+>
+  <div
+    class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+  >
+    Test Item
+  </div>
+</a>
+`;
