@@ -12,7 +12,7 @@ const enhance = compose(
 )
 
 function Header (props) {
-  const { headerContent } = props
+  const { content } = props
   return (
     <div className={css(tx.p4, tx.pt3, tx.flex, tx.flexDirectionColumn, tx.width100, sx.container)}>
       <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.width100, sx.navbar)}>
@@ -35,8 +35,8 @@ function Header (props) {
           <span className='lnr lnr-chevron-down' />
         </div>
       </div>
-      <div className={css(tx.pb3, sx.headerContent)}>
-        {headerContent}
+      <div className={css(tx.pb3, sx.content)}>
+        {content}
       </div>
     </div>
   )

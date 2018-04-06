@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   dropdownButton: {
     color: colors.gray
   },
-  headerContent: {
+  content: {
     marginTop: 'auto'
   }
 })

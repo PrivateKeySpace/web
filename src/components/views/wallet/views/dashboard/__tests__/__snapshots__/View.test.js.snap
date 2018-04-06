@@ -125,7 +125,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
           </div>
         </div>
         <div
-          class="pb3_1a70m23-o_O-headerContent_14ddvtv"
+          class="pb3_1a70m23-o_O-content_14ddvtv"
         >
           <h1
             class="fontWeight300_n2wlx5"

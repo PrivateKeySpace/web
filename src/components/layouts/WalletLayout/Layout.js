@@ -34,7 +34,7 @@ function Layout (props) {
         </div>
         <div className={css(tx.flexGrow1, sx.mainContainer)}>
           <Header
-            headerContent={headerContent}
+            content={headerContent}
           />
           <div {...mainContentContainerProps}>
             {mainContent}
