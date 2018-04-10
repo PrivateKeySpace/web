@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import Header from '../Header'
+import Footer from '../Footer'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()
@@ -12,8 +12,8 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const header = render(
-    <Header />
+  const footer = render(
+    <Footer />
   )
-  expect(header).toMatchSnapshot()
+  expect(footer).toMatchSnapshot()
 })

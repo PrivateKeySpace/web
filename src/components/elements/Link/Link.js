@@ -1,3 +1,4 @@
+import { Link as RouterLink } from 'react-router-dom'
 import { compose, setDisplayName, setPropTypes, mapProps } from 'recompose'
 import { propTypes, mapProps as propsMapper } from './lib'
 
@@ -8,4 +9,4 @@ const enhance = compose(
   mapProps(propsMapper)
 )
 
-export default enhance('button')
+export default enhance(RouterLink)

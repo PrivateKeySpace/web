@@ -1,5 +1,6 @@
 import { StyleSheet } from 'aphrodite/no-important'
-import { colors } from '../../../theme/constants'
+import { tint } from 'polished'
+import { colors, variants } from '../../../theme/constants'
 
 const styles = StyleSheet.create({
   alert: {
@@ -11,25 +12,16 @@ const styles = StyleSheet.create({
     borderColor: colors.lightGray,
     borderLeftWidth: 3
   },
-  danger: {
-    borderColor: colors.danger,
-    backgroundColor: colors.lightDanger
-  },
-  success: {
-    borderColor: colors.success,
-    backgroundColor: colors.lightSuccess
-  },
-  warning: {
-    borderColor: colors.warning,
-    backgroundColor: colors.lightWarning
-  },
-  info: {
-    borderColor: colors.info,
-    backgroundColor: colors.lightInfo
-  },
   controls: {
     marginLeft: 'auto'
-  }
+  },
+  ...variants.reduce((acc, variant) => {
+    acc[variant] = {
+      borderColor: colors[variant],
+      backgroundColor: tint(0.1, colors[variant])
+    }
+    return acc
+  }, {})
 })
 
 export default styles

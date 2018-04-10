@@ -1,0 +1,40 @@
+import React from 'react'
+import { StyleSheetTestUtils } from 'aphrodite'
+import { render } from 'enzyme'
+import Button from '../Button'
+import { variants } from '../../../theme/constants'
+
+beforeEach(() => {
+  StyleSheetTestUtils.suppressStyleInjection()
+})
+
+afterEach(() => {
+  StyleSheetTestUtils.clearBufferAndResumeStyleInjection()
+})
+
+it('renders default style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant}>Test Button</Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})
+
+it('renders outline style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant} outline>Test Button</Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})
+
+it('renders link style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant} link>Test Button</Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})

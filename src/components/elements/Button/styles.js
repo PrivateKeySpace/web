@@ -1,6 +1,6 @@
 import { StyleSheet } from 'aphrodite/no-important'
 import { darken } from 'polished'
-import { colors } from '../../../theme/constants'
+import { colors, variants } from '../../../theme/constants'
 
 const buttonHeight = 38
 
@@ -14,8 +14,6 @@ const buttonStyle = {
   paddingLeft: 16,
   paddingRight: 16
 }
-
-const variants = ['danger', 'success', 'warning', 'info']
 
 export const defaultSx = StyleSheet.create({
   button: {

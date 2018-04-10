@@ -32,7 +32,7 @@ function Layout (props) {
         <div className={css(sx.navContainer)}>
           <Nav />
         </div>
-        <div className={css(tx.flexGrow1, sx.mainContainer)}>
+        <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionColumn, sx.mainContainer)}>
           <Header
             content={headerContent}
           />

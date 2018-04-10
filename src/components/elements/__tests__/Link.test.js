@@ -1,7 +1,8 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import Header from '../Header'
+import { TestRouter } from '../../../__mocks__'
+import { Link } from '..'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()
@@ -12,8 +13,10 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const header = render(
-    <Header />
+  const link = render(
+    <TestRouter path='/'>
+      <Link to='/test'>Test link</Link>
+    </TestRouter>
   )
-  expect(header).toMatchSnapshot()
+  expect(link).toMatchSnapshot()
 })

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-success_1dopc1j"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-warning_6autjl"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_hi1esl-o_O-danger_6lyfl0"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_hi1esl-o_O-success_c44ynl"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_hi1esl-o_O-warning_1nv6k5z"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_hi1esl-o_O-info_1klt77v"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1x6fkxb-o_O-danger_pzbfk9"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1x6fkxb-o_O-success_1gtcoi1"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1x6fkxb-o_O-warning_1u6ilah"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1x6fkxb-o_O-info_1cltnm1"
+>
+  Test Button
+</button>
+`;

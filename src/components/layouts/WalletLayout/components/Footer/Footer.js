@@ -13,7 +13,7 @@ const enhance = compose(
 
 function Footer () {
   return (
-    <footer className={css(tx.px5)}>
+    <footer className={css(tx.px5, sx.footerContainer)}>
       <div className={css(tx.width100, tx.py4, tx.px1, tx.textTransformUppercase, sx.footer)}>
         2018 &copy; PKS Wallet. All rights reserved.
       </div>

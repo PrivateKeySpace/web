@@ -73,7 +73,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
       </nav>
     </div>
     <div
-      class="flexGrow1_t0tx82-o_O-mainContainer_1xmqyfw"
+      class="flex_jro6t0-o_O-flexGrow1_t0tx82-o_O-flexDirectionColumn_1jtvojh-o_O-mainContainer_1xmqyfw"
     >
       <div
         class="p5_1x929gn-o_O-pt3_1gv8f73-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-width100_zdxht7-o_O-container_1hoplq"
@@ -163,7 +163,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
             class="mb5_33xq1z-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
           >
             <div
-              class="flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+              class="mr2_18emzam-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
             >
               <div
                 class="mr4_kh8dwt-o_O-pt1_vsuzfi-o_O-icon_nkv9vo"
@@ -200,14 +200,50 @@ exports[`renders without crashing and matches snapshot 1`] = `
                     BTC
                   </div>
                 </div>
-                <div>
+                <a
+                  class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1etlbkf"
+                  href="/"
+                >
                   View all personal accounts
+                </a>
+              </div>
+            </div>
+            <div
+              class="mx5_8zqoic-o_O-separator_1gmknph"
+            >
+              
+            </div>
+            <div
+              class="mx2_1o6grbo-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+            >
+              <div
+                class="mr4_kh8dwt-o_O-pt1_vsuzfi-o_O-icon_nkv9vo"
+              >
+                <span
+                  class="lnr lnr-users"
+                >
+                  
+                </span>
+              </div>
+              <div
+                class=""
+              >
+                <div
+                  class="mb1_1tpeo8l-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-noAccountsMessage_1yz1w90"
+                >
+                  You don't have multisig accounts yet
                 </div>
+                <button
+                  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-success_1dopc1j"
+                  type="button"
+                >
+                  Add Account
+                </button>
               </div>
             </div>
           </div>
           <h2
-            class="textTransformUppercase_4efw5a-o_O-mb2_3x2xkx"
+            class="textTransformUppercase_4efw5a-o_O-mt3_15hpxq8-o_O-mb2_3x2xkx"
           >
             Approval Requests
           </h2>
@@ -265,7 +301,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
         </div>
       </div>
       <footer
-        class="px5_1g0n6pg"
+        class="px5_1g0n6pg-o_O-footerContainer_14ddvtv"
       >
         <div
           class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-footer_r1wilx"

@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   mainContainer: {
-    backgroundColor: '#f3f3f3'
+    backgroundColor: colors.lightBg
   }
 })
 

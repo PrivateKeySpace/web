@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 1`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_a5o1zu"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+      >
+        Close
+      </button>
+    </div>
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 2`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-success_1b63wt8"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+      >
+        Close
+      </button>
+    </div>
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 3`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-warning_gn949f"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+      >
+        Close
+      </button>
+    </div>
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 4`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_1acwq04"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+      >
+        Close
+      </button>
+    </div>
+    <div
+      class="px1_17oj4c4"
+    >
+      <button
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 1`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_a5o1zu"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 2`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-success_1b63wt8"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 3`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-warning_gn949f"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 4`] = `
+<div
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_1acwq04"
+>
+  <div
+    class=""
+  >
+    Test alert
+  </div>
+  <div
+    class="flex_jro6t0-o_O-controls_ls0e43"
+  >
+    
+  </div>
+</div>
+`;

@@ -13,7 +13,7 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const wrapper = render(
+  const layout = render(
     <TestRouter path='/wallet'>
       <WalletLayout
         topBarContent={
@@ -32,11 +32,11 @@ it('renders without crashing and matches snapshot', () => {
       />
     </TestRouter>
   )
-  expect(wrapper).toMatchSnapshot()
+  expect(layout).toMatchSnapshot()
 })
 
 it('renders correctly with no top bar defined, does not crash and matches snapshot', () => {
-  const wrapper = render(
+  const layout = render(
     <TestRouter path='/wallet'>
       <WalletLayout
         headerContent={
@@ -52,5 +52,5 @@ it('renders correctly with no top bar defined, does not crash and matches snapsh
       />
     </TestRouter>
   )
-  expect(wrapper).toMatchSnapshot()
+  expect(layout).toMatchSnapshot()
 })

@@ -13,10 +13,10 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const wrapper = render(
+  const nav = render(
     <TestRouter path='/wallet/dashboard'>
       <Nav />
     </TestRouter>
   )
-  expect(wrapper).toMatchSnapshot()
+  expect(nav).toMatchSnapshot()
 })

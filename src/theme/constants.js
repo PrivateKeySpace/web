@@ -20,17 +20,14 @@ export const colors = {
   darkBg: '#323a3e',
   lightBg: '#f3f3f3',
   danger: '#f45c3e',
-  lightDanger: '#feefec',
   warning: '#fcca60',
-  lightWarning: '#fffaef',
   success: '#75ad12',
-  lightSuccess: '#f1f7e7',
-  info: '#3ba6d8',
-  lightInfo: '#ebf6fb'
+  info: '#3ba6d8'
 }
+export const variants = ['danger', 'success', 'warning', 'info']
 
-export const fontSizes = [38, 18, 15]
-export const lineHeights = [46, 22, 18]
+export const fontSizes = [38, 18, 15, 12]
+export const lineHeights = [46, 22, 18, 14]
 
 export const letterSpacings = []
 
