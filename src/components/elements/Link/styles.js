@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
     color: colors.info,
     cursor: 'pointer',
     ':hover': {
-      color: darken(0.1, colors.info)
+      color: darken(0.1, colors.info),
+      textDecoration: 'underline'
     }
   }
 })

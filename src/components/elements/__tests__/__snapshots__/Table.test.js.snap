@@ -41,6 +41,7 @@ exports[`renders empty table with columns and default empty message, does not cr
   <tbody>
     <tr>
       <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
         colspan="6"
       >
         <div
@@ -95,6 +96,7 @@ exports[`renders empty table with columns and empty message, does not crash and 
   <tbody>
     <tr>
       <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
         colspan="6"
       >
         <div
@@ -120,6 +122,7 @@ exports[`renders empty table without crashing and matches snapshot 1`] = `
   <tbody>
     <tr>
       <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
         colspan="0"
       >
         <div
@@ -169,6 +172,128 @@ exports[`renders table with columns, data and empty message, does not crash and 
       >
         Reason
       </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        23.05.2012
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Request 2/3
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Mark Spenser
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Bitcoin Address
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        100
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Test
+      </td>
+    </tr>
+    <tr>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <div>
+          '23.05.2012'
+        </div>
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <div>
+          'Request 2/3'
+        </div>
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <i>
+          'Mark Spenser'
+        </i>
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <i>
+          'Bitcoin Address'
+        </i>
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <b>
+          100
+        </b>
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        <b>
+          'Test'
+        </b>
+      </td>
+    </tr>
+    <tr>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        23.05.2012
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Mark Spenser
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        100
+      </td>
+      <td
+        class="px2_6ebohg-o_O-py4_r2hutn-o_O-td_1f1ffwf"
+      >
+        Test
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders table without columns, with data and empty message, does not crash and matches snapshot 1`] = `
+<table
+  class="width100_zdxht7-o_O-table_zuaglh"
+>
+  <thead>
+    <tr>
+      
     </tr>
   </thead>
   <tbody>

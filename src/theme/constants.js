@@ -19,10 +19,10 @@ export const colors = {
   lightGray: '#d6d6d6',
   darkBg: '#323a3e',
   lightBg: '#f3f3f3',
-  danger: '#f45c3e',
+  danger: '#f75b36',
   warning: '#fcca60',
   success: '#75ad12',
-  info: '#3ba6d8'
+  info: '#34a5da'
 }
 export const variants = ['danger', 'success', 'warning', 'info']
 

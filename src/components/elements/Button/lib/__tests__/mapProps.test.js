@@ -9,7 +9,7 @@ afterEach(() => {
   StyleSheetTestUtils.clearBufferAndResumeStyleInjection()
 })
 
-it('should correctly map props by removing `variant`, `outline` and `link` and modifying `className`', () => {
+it('should correctly map props by removing `variant`, `outline` and `link`, and modifying `className`', () => {
   const props = mapProps({ type: 'button', variant: 'success', outline: true })
   expect(props).toHaveProperty('type')
   expect(props).toHaveProperty('className')

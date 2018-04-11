@@ -22,7 +22,8 @@ exports[`renders without crashing and matches snapshot 1`] = `
       You don't have multisig accounts yet
     </div>
     <button
-      class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-success_1dopc1j"
+      class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-success_ho83a3"
+      disabled=""
       type="button"
     >
       Add Account

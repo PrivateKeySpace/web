@@ -2,7 +2,7 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <a
-  class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1etlbkf"
+  class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1onilyj"
   href="/test"
 >
   Test link

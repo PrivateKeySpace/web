@@ -6,13 +6,25 @@ const buttonHeight = 38
 
 const buttonStyle = {
   height: buttonHeight,
+  minWidth: 38,
   borderRadius: buttonHeight,
+  lineHeight: `${buttonHeight}px`,
   fontSize: 13,
   cursor: 'pointer',
   userSelect: 'none',
   outline: 'none',
   paddingLeft: 16,
-  paddingRight: 16
+  paddingRight: 16,
+  ':disabled': {
+    opacity: 0.5,
+    cursor: 'not-allowed'
+  }
+}
+
+const roundButtonStyle = {
+  width: 38,
+  paddingLeft: 1,
+  paddingRight: 0
 }
 
 export const defaultSx = StyleSheet.create({
@@ -22,15 +34,16 @@ export const defaultSx = StyleSheet.create({
     border: 'none',
     color: colors.black
   },
+  round: roundButtonStyle,
   ...variants.reduce((acc, variant) => {
     acc[variant] = {
       color: colors.white,
       backgroundColor: colors[variant],
-      ':hover': {
-        backgroundColor: darken(0.1, colors[variant])
+      ':hover:enabled': {
+        backgroundColor: darken(0.08, colors[variant])
       },
-      ':active': {
-        backgroundColor: darken(0.15, colors[variant])
+      ':active:enabled': {
+        backgroundColor: darken(0.12, colors[variant])
       }
     }
     return acc
@@ -48,18 +61,19 @@ export const outlineSx = StyleSheet.create({
     paddingLeft: 14,
     paddingRight: 14
   },
+  round: roundButtonStyle,
   ...variants.reduce((acc, variant) => {
     acc[variant] = {
       borderColor: colors[variant],
       color: colors[variant],
-      ':hover': {
-        borderColor: darken(0.1, colors[variant]),
-        backgroundColor: darken(0.1, colors[variant]),
+      ':hover:enabled': {
+        borderColor: darken(0.08, colors[variant]),
+        backgroundColor: darken(0.08, colors[variant]),
         color: colors.white
       },
-      ':active': {
-        borderColor: darken(0.15, colors[variant]),
-        backgroundColor: darken(0.15, colors[variant]),
+      ':active:enabled': {
+        borderColor: darken(0.12, colors[variant]),
+        backgroundColor: darken(0.12, colors[variant]),
         color: colors.white
       }
     }
@@ -74,14 +88,15 @@ export const linkSx = StyleSheet.create({
     border: 'none',
     color: colors.black
   },
+  round: roundButtonStyle,
   ...variants.reduce((acc, variant) => {
     acc[variant] = {
       color: colors[variant],
-      ':hover': {
-        color: darken(0.1, colors[variant])
+      ':hover:enabled': {
+        color: darken(0.08, colors[variant])
       },
-      ':active': {
-        color: darken(0.15, colors[variant])
+      ':active:enabled': {
+        color: darken(0.12, colors[variant])
       }
     }
     return acc

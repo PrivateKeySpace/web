@@ -3,6 +3,7 @@ import { compose, setDisplayName, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import tx from '../../../../../theme/styles'
 import sx from './styles'
+import { Menu } from './components'
 
 const displayName = 'components/layouts/WalletLayout/components/Header'
 
@@ -34,9 +35,7 @@ function Header (props) {
             connected
           </div>
         </div>
-        <div className={css(tx.flex, tx.alignItemsCenter, tx.justifyContentCenter, tx.px2, tx.ml1, tx.height100, sx.dropdownButton)}>
-          <span className='lnr lnr-chevron-down' />
-        </div>
+        <Menu />
       </div>
       <div className={css(tx.pb3, sx.content)}>
         {content}

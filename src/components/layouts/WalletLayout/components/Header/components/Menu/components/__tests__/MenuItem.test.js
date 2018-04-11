@@ -1,8 +1,7 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import { TestReduxProvider } from '../../../../../__mocks__'
-import Header from '../Header'
+import MenuItem from '../MenuItem'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()
@@ -13,10 +12,8 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const header = render(
-    <TestReduxProvider>
-      <Header />
-    </TestReduxProvider>
+  const footer = render(
+    <MenuItem />
   )
-  expect(header).toMatchSnapshot()
+  expect(footer).toMatchSnapshot()
 })

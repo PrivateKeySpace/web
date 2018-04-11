@@ -42,11 +42,13 @@ const styles = StyleSheet.create({
     fontSize: 14
   },
   deviceStatus: {
-    color: colors.gray,
+    color: colors.white,
+    opacity: 0.5,
     fontSize: 10
   },
   dropdownButton: {
-    color: colors.gray
+    color: colors.white,
+    opacity: 0.5
   },
   content: {
     marginTop: 'auto'

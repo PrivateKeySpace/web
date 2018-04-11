@@ -2,7 +2,7 @@
 
 exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 1`] = `
 <div
-  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_a5o1zu"
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_1idtv0p"
 >
   <div
     class=""
@@ -16,7 +16,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
       >
         Close
       </button>
@@ -25,7 +25,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
       >
         Accept
       </button>
@@ -50,7 +50,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
       >
         Close
       </button>
@@ -59,7 +59,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
       >
         Accept
       </button>
@@ -84,7 +84,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
       >
         Close
       </button>
@@ -93,7 +93,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
       >
         Accept
       </button>
@@ -104,7 +104,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
 
 exports[`renders alerts of all variants with multiple controls, does not crash and matches snapshot 4`] = `
 <div
-  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_1acwq04"
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_eib8x7"
 >
   <div
     class=""
@@ -118,7 +118,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-danger_o6beaq"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
       >
         Close
       </button>
@@ -127,7 +127,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
       class="px1_17oj4c4"
     >
       <button
-        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1pvg0dr-o_O-info_ki9aj1"
+        class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
       >
         Accept
       </button>
@@ -138,7 +138,7 @@ exports[`renders alerts of all variants with multiple controls, does not crash a
 
 exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 1`] = `
 <div
-  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_a5o1zu"
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-danger_1idtv0p"
 >
   <div
     class=""
@@ -189,7 +189,7 @@ exports[`renders alerts of all variants with no controls, does not crash and mat
 
 exports[`renders alerts of all variants with no controls, does not crash and matches snapshot 4`] = `
 <div
-  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_1acwq04"
+  class="width100_zdxht7-o_O-fontWeight500_gt7myn-o_O-mb1_1tpeo8l-o_O-px3_1rzpu44-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-alert_ykn234-o_O-info_eib8x7"
 >
   <div
     class=""

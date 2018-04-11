@@ -21,6 +21,15 @@ it('renders default style buttons of all variants without crashing and matches s
   }
 })
 
+it('renders disabled default style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant} disabled>Test Button</Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})
+
 it('renders outline style buttons of all variants without crashing and matches snapshot', () => {
   for (const variant of variants) {
     const button = render(
@@ -34,6 +43,28 @@ it('renders link style buttons of all variants without crashing and matches snap
   for (const variant of variants) {
     const button = render(
       <Button variant={variant} link>Test Button</Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})
+
+it('renders round style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant} round>
+        <span className='lnr lnr-alarm' />
+      </Button>
+    )
+    expect(button).toMatchSnapshot()
+  }
+})
+
+it('renders round ouline style buttons of all variants without crashing and matches snapshot', () => {
+  for (const variant of variants) {
+    const button = render(
+      <Button variant={variant} round outline>
+        <span className='lnr lnr-alarm' />
+      </Button>
     )
     expect(button).toMatchSnapshot()
   }

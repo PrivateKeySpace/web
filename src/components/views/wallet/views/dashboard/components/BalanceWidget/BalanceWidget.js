@@ -15,15 +15,18 @@ const enhance = compose(
 )
 
 function BalanceWidget (props) {
-  const { usdValue, btcValue } = props
+  const { title, icon, link, usdValue, btcValue } = props
 
   return (
     <div className={css(tx.mr2, tx.flex, tx.flexDirectionRow)}>
-      <div className={css(tx.mr4, tx.pt1, sx.icon)}>
-        <span className='lnr lnr-briefcase' />
-      </div>
+      {
+        icon &&
+        <div className={css(tx.mr4, tx.pt1, sx.icon)}>
+          <span className={`lnr lnr-${icon}`} />
+        </div>
+      }
       <div className={css(sx.info)}>
-        <div className={css(tx.textTransformUppercase, tx.fontWeight400, sx.accountName)}>Personal Account</div>
+        <div className={css(tx.textTransformUppercase, tx.fontWeight400, sx.accountName)}>{title}</div>
         <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, sx.balance)}>
           <div className={css(tx.fontWeight400, sx.usdBalance)}>{usdValue} USD</div>
           <div className={css(tx.ml2, sx.btcBalance)}>
@@ -32,7 +35,10 @@ function BalanceWidget (props) {
             BTC
           </div>
         </div>
-        <Link to='/'>View all personal accounts</Link>
+        {
+          link &&
+          <Link to={link.to}>{link.text}</Link>
+        }
       </div>
     </div>
   )

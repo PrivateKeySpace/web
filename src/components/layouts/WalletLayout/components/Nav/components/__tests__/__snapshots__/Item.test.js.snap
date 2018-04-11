@@ -5,7 +5,7 @@ exports[`renders active Item without crashing and matches snapshot 1`] = `
   href="/testRoute"
 >
   <div
-    class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+    class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_12c23yt"
   >
     Test Item
   </div>

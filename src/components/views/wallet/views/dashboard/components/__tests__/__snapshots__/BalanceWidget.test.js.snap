@@ -19,7 +19,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     <div
       class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-accountName_1yz1w90"
     >
-      Personal Account
+      Test title
     </div>
     <div
       class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt"
@@ -40,10 +40,84 @@ exports[`renders without crashing and matches snapshot 1`] = `
       </div>
     </div>
     <a
-      class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1etlbkf"
-      href="/"
+      class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1onilyj"
+      href="/test"
     >
-      View all personal accounts
+      Test Link
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders without icon and without link, does not crash and matches snapshot 1`] = `
+<div
+  class="mr2_18emzam-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+>
+  <div
+    class=""
+  >
+    <div
+      class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-accountName_1yz1w90"
+    >
+      Test title
+    </div>
+    <div
+      class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt"
+    >
+      <div
+        class="fontWeight400_tt122m-o_O-usdBalance_1fhummc"
+      >
+        0 USD
+      </div>
+      <div
+        class="ml2_y4bb05-o_O-btcBalance_1yz1w90"
+      >
+        0
+        <br>
+          
+        </br>
+        BTC
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without icon, does not crash and matches snapshot 1`] = `
+<div
+  class="mr2_18emzam-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+>
+  <div
+    class=""
+  >
+    <div
+      class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-accountName_1yz1w90"
+    >
+      Test title
+    </div>
+    <div
+      class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt"
+    >
+      <div
+        class="fontWeight400_tt122m-o_O-usdBalance_1fhummc"
+      >
+        0 USD
+      </div>
+      <div
+        class="ml2_y4bb05-o_O-btcBalance_1yz1w90"
+      >
+        0
+        <br>
+          
+        </br>
+        BTC
+      </div>
+    </div>
+    <a
+      class="textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-fontSize3_o9hx2m-o_O-link_1onilyj"
+      href="/test"
+    >
+      Test Link
     </a>
   </div>
 </div>

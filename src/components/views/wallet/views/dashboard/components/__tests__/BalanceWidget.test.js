@@ -15,7 +15,25 @@ afterEach(() => {
 it('renders without crashing and matches snapshot', () => {
   const widget = render(
     <TestRouter>
-      <BalanceWidget />
+      <BalanceWidget title='Test title' icon='briefcase' link={{ to: '/test', text: 'Test Link' }} />
+    </TestRouter>
+  )
+  expect(widget).toMatchSnapshot()
+})
+
+it('renders without icon, does not crash and matches snapshot', () => {
+  const widget = render(
+    <TestRouter>
+      <BalanceWidget title='Test title' link={{ to: '/test', text: 'Test Link' }} />
+    </TestRouter>
+  )
+  expect(widget).toMatchSnapshot()
+})
+
+it('renders without icon and without link, does not crash and matches snapshot', () => {
+  const widget = render(
+    <TestRouter>
+      <BalanceWidget title='Test title' />
     </TestRouter>
   )
   expect(widget).toMatchSnapshot()

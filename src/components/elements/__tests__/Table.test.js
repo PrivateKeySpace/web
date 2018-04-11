@@ -52,6 +52,13 @@ it('renders empty table without crashing and matches snapshot', () => {
   expect(table).toMatchSnapshot()
 })
 
+it('renders empty table with columns and default empty message, does not crash and matches snapshot', () => {
+  const table = render(
+    <Table columns={testColumns} />
+  )
+  expect(table).toMatchSnapshot()
+})
+
 it('renders empty table with columns and empty message, does not crash and matches snapshot', () => {
   const table = render(
     <Table columns={testColumns} emptyMessage='Test data is empty' />
@@ -59,9 +66,9 @@ it('renders empty table with columns and empty message, does not crash and match
   expect(table).toMatchSnapshot()
 })
 
-it('renders empty table with columns and default empty message, does not crash and matches snapshot', () => {
+it('renders table without columns, with data and empty message, does not crash and matches snapshot', () => {
   const table = render(
-    <Table columns={testColumns} />
+    <Table data={testData} emptyMessage='Test data is empty' />
   )
   expect(table).toMatchSnapshot()
 })

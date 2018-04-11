@@ -19,7 +19,7 @@ function NoAccountsWidget () {
       </div>
       <div className={css(sx.info)}>
         <div className={css(tx.mb1, tx.textTransformUppercase, tx.fontWeight400, sx.noAccountsMessage)}>You don't have multisig accounts yet</div>
-        <Button type='button' variant='success'>Add Account</Button>
+        <Button type='button' variant='success' disabled>Add Account</Button>
       </div>
     </div>
   )

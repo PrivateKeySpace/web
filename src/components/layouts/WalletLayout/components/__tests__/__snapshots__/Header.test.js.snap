@@ -24,7 +24,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
         class="notificationCounterWrap_1k9zd85"
       >
         <div
-          class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-notificationCounter_e0aaj6"
+          class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-notificationCounter_1xicdc3"
         >
           5
         </div>
@@ -44,16 +44,16 @@ exports[`renders without crashing and matches snapshot 1`] = `
         Trezor Label
       </div>
       <div
-        class="textTransformUppercase_4efw5a-o_O-deviceStatus_z7nj5y"
+        class="textTransformUppercase_4efw5a-o_O-deviceStatus_1wddarm"
       >
         connected
       </div>
     </div>
     <div
-      class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-px2_6ebohg-o_O-ml1_1dn7v29-o_O-height100_1yfus1e-o_O-dropdownButton_1gb1rbb"
+      class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-px2_6ebohg-o_O-ml1_1dn7v29-o_O-height100_1yfus1e-o_O-cursorPointer_13xlah4-o_O-dropdownButton_1w6iw80"
     >
       <span
-        class="lnr lnr-chevron-down"
+        class="lnr lnr-chevron-down icon_ko4whp"
       >
         
       </span>

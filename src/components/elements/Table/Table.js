@@ -30,14 +30,23 @@ function renderColumnsRow (columns) {
   )
 }
 
+function makeCellsFromData (data) {
+  if (data.length > 0) {
+    const [firstItem] = data
+    return Object.keys(firstItem).map(key => ({ key }))
+  }
+  return []
+}
+
 function renderDataRows (columns, data) {
   return data.map((item, index) => {
     const rowKey = item.id || index
+    const dataColumns = columns.length === 0 ? makeCellsFromData(data) : columns
 
     return (
       <tr key={rowKey}>
         {
-          columns.map(({ key: columnKey }) =>
+          dataColumns.map(({ key: columnKey }) =>
             <td key={`${rowKey}_${columnKey}`} className={css(tx.px2, tx.py4, sx.td)}>
               {item[columnKey]}
             </td>
@@ -51,7 +60,7 @@ function renderDataRows (columns, data) {
 function renderEmptyMessageRow (columns, emptyMessage) {
   return (
     <tr>
-      <td colSpan={columns.length}>
+      <td className={css(tx.px2, tx.py4, sx.td)} colSpan={columns.length}>
         <div className={css(tx.width100, tx.flex, tx.justifyContentCenter, tx.alignItemsCenter, tx.textTransformUppercase, tx.fontWeight400, sx.noRows)}>
           {emptyMessage}
         </div>
