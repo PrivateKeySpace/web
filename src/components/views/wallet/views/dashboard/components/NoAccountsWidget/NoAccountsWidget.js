@@ -1,5 +1,5 @@
 import React from 'react'
-import { compose, setDisplayName } from 'recompose'
+import { compose, setDisplayName, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import tx from '../../../../../../../theme/styles'
 import sx from './styles'
@@ -7,7 +7,8 @@ import { Button } from '../../../../../../elements'
 
 const displayName = 'components/views/wallet/views/dashboard/components/NoAccountsWidget'
 const enhance = compose(
-  setDisplayName(displayName)
+  setDisplayName(displayName),
+  pure
 )
 
 function NoAccountsWidget () {

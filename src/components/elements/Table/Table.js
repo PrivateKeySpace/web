@@ -1,5 +1,5 @@
 import React from 'react'
-import { compose, setDisplayName, setPropTypes, defaultProps } from 'recompose'
+import { compose, setDisplayName, setPropTypes, defaultProps, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import { propTypes, defaultPropsSpec } from './lib'
 import tx from '../../../theme/styles'
@@ -9,7 +9,8 @@ const displayName = 'components/elements/Table'
 const enhance = compose(
   setDisplayName(displayName),
   setPropTypes(propTypes),
-  defaultProps(defaultPropsSpec)
+  defaultProps(defaultPropsSpec),
+  pure
 )
 
 function renderColumnsRow (columns) {
