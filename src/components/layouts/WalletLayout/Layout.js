@@ -2,8 +2,8 @@ import React from 'react'
 import { compose, setDisplayName, setPropTypes, defaultProps, mapProps, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import { defaultPropsSpec, propTypes, mapProps as propsMapper } from './lib'
+import { Nav, Header, Footer } from './components'
 import tx from '../../../theme/styles'
-import { Nav, Header } from './components'
 import sx from './styles'
 
 const displayName = 'components/layouts/WalletLayout'
@@ -32,13 +32,14 @@ function Layout (props) {
         <div className={css(sx.navContainer)}>
           <Nav />
         </div>
-        <div className={css(tx.flexGrow1, sx.mainContainer)}>
+        <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionColumn, sx.mainContainer)}>
           <Header
             content={headerContent}
           />
           <div {...mainContentContainerProps}>
             {mainContent}
           </div>
+          <Footer />
         </div>
       </div>
     </div>

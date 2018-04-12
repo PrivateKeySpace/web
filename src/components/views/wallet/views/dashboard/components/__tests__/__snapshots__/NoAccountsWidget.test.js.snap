@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<div
+  class="mx2_1o6grbo-o_O-flex_jro6t0-o_O-flexDirectionRow_qb00m9"
+>
+  <div
+    class="mr4_kh8dwt-o_O-pt1_vsuzfi-o_O-icon_nkv9vo"
+  >
+    <span
+      class="lnr lnr-users"
+    >
+      
+    </span>
+  </div>
+  <div
+    class=""
+  >
+    <div
+      class="mb1_1tpeo8l-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-noAccountsMessage_1yz1w90"
+    >
+      You don't have multisig accounts yet
+    </div>
+    <button
+      class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-success_ho83a3"
+      disabled=""
+      type="button"
+    >
+      Add Account
+    </button>
+  </div>
+</div>
+`;

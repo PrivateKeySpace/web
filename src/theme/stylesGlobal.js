@@ -26,7 +26,7 @@ const stylesGlobal = aphroditeGlobal.StyleSheet.create({
       fontFamily: fontFamilies.primary,
       color: colors.black,
       fontStyle: 'normal',
-      fontWeight: 400,
+      fontWeight: 300,
       fontSize: 15,
       backgroundColor: colors.white,
       [mediaQueries.print]: {

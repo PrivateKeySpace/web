@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
+import { TestReduxProvider } from '../../../../../__mocks__'
 import Header from '../Header'
 
 beforeEach(() => {
@@ -12,8 +13,10 @@ afterEach(() => {
 })
 
 it('renders without crashing and matches snapshot', () => {
-  const wrapper = render(
-    <Header />
+  const header = render(
+    <TestReduxProvider>
+      <Header />
+    </TestReduxProvider>
   )
-  expect(wrapper).toMatchSnapshot()
+  expect(header).toMatchSnapshot()
 })

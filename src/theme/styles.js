@@ -6,6 +6,7 @@ import { breakpoints, mediaQueries, borderStyle, borderColor, borderWidth, borde
 
 let stylesSpec = {}
 
+stylesSpec.inlineFlex = { display: 'inline-flex' }
 stylesSpec.flex = { display: 'flex' }
 stylesSpec.flexWrap = { flexWrap: 'wrap' }
 stylesSpec.flexDirectionColumn = { flexDirection: 'column' }

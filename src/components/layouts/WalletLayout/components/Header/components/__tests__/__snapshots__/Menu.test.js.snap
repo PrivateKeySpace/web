@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<div
+  class="flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-px2_6ebohg-o_O-ml1_1dn7v29-o_O-height100_1yfus1e-o_O-cursorPointer_13xlah4-o_O-dropdownButton_1w6iw80"
+>
+  <span
+    class="lnr lnr-chevron-down icon_ko4whp"
+  >
+    
+  </span>
+</div>
+`;

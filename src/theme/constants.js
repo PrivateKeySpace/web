@@ -10,22 +10,24 @@ export const breakpoints = {
 
 export const mediaQueries = getMediaQueries(breakpoints)
 
-export const scale = [0, 5, 10, 15, 25]
+export const scale = [0, 5, 10, 15, 20, 25]
 
 export const colors = {
   black: '#000000',
   white: '#ffffff',
   gray: '#666666',
+  lightGray: '#d6d6d6',
   darkBg: '#323a3e',
   lightBg: '#f3f3f3',
-  danger: '#f45c3e',
+  danger: '#f75b36',
   warning: '#fcca60',
-  success: '#76ab26',
-  info: '#3ba6d8'
+  success: '#75ad12',
+  info: '#34a5da'
 }
+export const variants = ['danger', 'success', 'warning', 'info']
 
-export const fontSizes = [38, 18, 15]
-export const lineHeights = [46, 22, 18]
+export const fontSizes = [38, 18, 15, 12]
+export const lineHeights = [46, 22, 18, 14]
 
 export const letterSpacings = []
 

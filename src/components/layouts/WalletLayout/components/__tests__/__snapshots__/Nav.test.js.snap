@@ -6,7 +6,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/dashboard"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_15dxwys"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl-o_O-fontWeight500_gt7myn-o_O-active_12c23yt"
     >
       Dashboard
     </div>
@@ -15,7 +15,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/personal"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
     >
       Personal accounts
     </div>
@@ -24,7 +24,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/multisig"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
     >
       Multisig accounts
     </div>
@@ -33,7 +33,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/cosigners"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
     >
       Cosigners
     </div>
@@ -42,7 +42,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/clients"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
     >
       Clients
     </div>
@@ -51,7 +51,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     href="/wallet/help"
   >
     <div
-      class="p3_vx7tlw-o_O-pl4_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
+      class="p3_vx7tlw-o_O-pl5_qh1ng-o_O-flex_jro6t0-o_O-alignItemsCenter_1moixrt-o_O-textTransformUppercase_4efw5a-o_O-fontWeight400_tt122m-o_O-wrap_s5wwyl"
     >
       Help
     </div>

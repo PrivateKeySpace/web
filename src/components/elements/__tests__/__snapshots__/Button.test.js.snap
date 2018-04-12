@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-success_ho83a3"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-warning_1d2e13p"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders default style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders disabled default style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk"
+  disabled=""
+>
+  Test Button
+</button>
+`;
+
+exports[`renders disabled default style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-success_ho83a3"
+  disabled=""
+>
+  Test Button
+</button>
+`;
+
+exports[`renders disabled default style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-warning_1d2e13p"
+  disabled=""
+>
+  Test Button
+</button>
+`;
+
+exports[`renders disabled default style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9"
+  disabled=""
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_olhiji-o_O-danger_1apl0py"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_olhiji-o_O-success_1sf415p"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_olhiji-o_O-warning_1nw1vbn"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders link style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_olhiji-o_O-info_19dksof"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-danger_6ixs7d"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-success_rpvc09"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-warning_1ijooeh"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders outline style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-info_1fyhmo9"
+>
+  Test Button
+</button>
+`;
+
+exports[`renders round ouline style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-danger_6ixs7d-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round ouline style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-success_rpvc09-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round ouline style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-warning_1ijooeh-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round ouline style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_1yqkn2s-o_O-info_1fyhmo9-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round style buttons of all variants without crashing and matches snapshot 1`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-danger_ut56jk-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round style buttons of all variants without crashing and matches snapshot 2`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-success_ho83a3-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round style buttons of all variants without crashing and matches snapshot 3`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-warning_1d2e13p-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
+
+exports[`renders round style buttons of all variants without crashing and matches snapshot 4`] = `
+<button
+  class="px4_woxb04-o_O-textTransformUppercase_4efw5a-o_O-fontWeight500_gt7myn-o_O-inlineFlex_goo6eo-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-button_v3fs7o-o_O-info_4c6fs9-o_O-fontSize1_3kvou9-o_O-fontWeight500_gt7myn-o_O-round_g0qzym"
+>
+  <span
+    class="lnr lnr-alarm"
+  >
+    
+  </span>
+</button>
+`;
