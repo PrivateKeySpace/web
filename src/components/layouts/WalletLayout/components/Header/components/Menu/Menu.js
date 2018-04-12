@@ -1,19 +1,22 @@
 import React from 'react'
+import onClickOutside from 'react-onclickoutside'
 import { connect } from 'react-redux'
-import { compose, setDisplayName, pure, withStateHandlers } from 'recompose'
+import { compose, setDisplayName, pure, withHandlers, withState } from 'recompose'
 import { css } from 'aphrodite/no-important'
 import classNames from 'classnames'
-import { mapDispatch, stateHandlers } from './lib'
-import tx from '../../../../../../../theme/styles'
 import sx from './styles'
-import MenuItem from './components/MenuItem'
+import tx from '../../../../../../../theme/styles'
+import { mapDispatch, handlers, stateSpec } from './lib'
+import { MenuItem } from './components'
 
 const displayName = 'components/layouts/WalletLayout/components/Header/components/Menu'
 
 const enhance = compose(
   setDisplayName(displayName),
   connect(undefined, mapDispatch),
-  withStateHandlers(stateHandlers.state, stateHandlers.handlers),
+  ...stateSpec.map(statePropDefinition => withState(...statePropDefinition)),
+  withHandlers(handlers),
+  onClickOutside,
   pure
 )
 

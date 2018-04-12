@@ -1,15 +1,15 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import { Table } from '..'
+import Table from '../Table'
 
 const testColumns = [
-  {name: 'Date', key: 'date'},
-  {name: 'Status', key: 'status'},
-  {name: 'Created By', key: 'createdBy'},
-  {name: 'To', key: 'to'},
-  {name: 'Amount', key: 'amount'},
-  {name: 'Reason', key: 'reason'}
+  { name: 'Date', key: 'date' },
+  { name: 'Status', key: 'status' },
+  { name: 'Created By', key: 'createdBy' },
+  { name: 'To', key: 'to' },
+  { name: 'Amount', key: 'amount' },
+  { name: 'Reason', key: 'reason' }
 ]
 
 const testData = [

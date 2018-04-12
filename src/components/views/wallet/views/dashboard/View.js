@@ -1,8 +1,8 @@
 import React from 'react'
 import { compose, setDisplayName, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import tx from '../../../../../theme/styles'
 import sx from './styles'
+import tx from '../../../../../theme/styles'
 import { WalletLayout } from '../../../../layouts'
 import { Table } from '../../../../elements'
 import { BalanceWidget, NoAccountsWidget } from './components'
@@ -15,12 +15,12 @@ const enhance = compose(
 )
 
 const approvalColumns = [
-  {name: 'Date', key: 'date'},
-  {name: 'Status', key: 'status'},
-  {name: 'Created By', key: 'createdBy'},
-  {name: 'To', key: 'to'},
-  {name: 'Amount', key: 'amount'},
-  {name: 'Reason', key: 'reason'}
+  { name: 'Date', key: 'date' },
+  { name: 'Status', key: 'status' },
+  { name: 'Created By', key: 'createdBy' },
+  { name: 'To', key: 'to' },
+  { name: 'Amount', key: 'amount' },
+  { name: 'Reason', key: 'reason' }
 ]
 
 function View (props) {

@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
 import { TestRouter } from '../../../__mocks__'
-import { Link } from '..'
+import Link from '../Link'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()

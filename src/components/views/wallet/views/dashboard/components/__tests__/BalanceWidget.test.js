@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import BalanceWidget from '../BalanceWidget'
 import { TestRouter } from '../../../../../../../__mocks__'
+import BalanceWidget from '../BalanceWidget'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()

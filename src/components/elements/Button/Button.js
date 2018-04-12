@@ -1,3 +1,4 @@
+import React from 'react'
 import { compose, setDisplayName, setPropTypes, mapProps, pure } from 'recompose'
 import { propTypes, mapProps as propsMapper } from './lib'
 
@@ -9,4 +10,8 @@ const enhance = compose(
   pure
 )
 
-export default enhance('button')
+function Button (props) {
+  return <button {...props} />
+}
+
+export default enhance(Button)

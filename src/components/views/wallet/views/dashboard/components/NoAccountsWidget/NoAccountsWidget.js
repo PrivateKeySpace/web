@@ -1,8 +1,8 @@
 import React from 'react'
 import { compose, setDisplayName, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import tx from '../../../../../../../theme/styles'
 import sx from './styles'
+import tx from '../../../../../../../theme/styles'
 import { Button } from '../../../../../../elements'
 
 const displayName = 'components/views/wallet/views/dashboard/components/NoAccountsWidget'

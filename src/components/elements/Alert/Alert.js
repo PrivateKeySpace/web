@@ -1,9 +1,9 @@
 import React from 'react'
 import { compose, setDisplayName, setPropTypes, defaultProps, pure } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import { propTypes, defaultPropsSpec } from './lib'
 import tx from '../../../theme/styles'
 import sx from './styles'
+import { propTypes, defaultPropsSpec } from './lib'
 
 const displayName = 'components/elements/Alert'
 const enhance = compose(

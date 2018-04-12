@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheetTestUtils } from 'aphrodite'
 import { render } from 'enzyme'
-import Button from '../Button'
 import { variants } from '../../../theme/constants'
+import Button from '../Button'
 
 beforeEach(() => {
   StyleSheetTestUtils.suppressStyleInjection()

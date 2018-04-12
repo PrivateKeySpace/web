@@ -1,2 +1,3 @@
 export { default as mapDispatch } from './mapDispatch'
-export { default as stateHandlers } from './stateHandlers'
+export { default as handlers } from './handlers'
+export { default as stateSpec } from './stateSpec'
