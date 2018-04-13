@@ -1,4 +1,7 @@
 # Private Key Space Wallet - Web
+
+[![CircleCI](https://circleci.com/gh/PrivateKeySpace/web/tree/develop.svg?style=shield)](https://circleci.com/gh/PrivateKeySpace/web/tree/develop)
+
 Web front-end for Core wallet service.
 
 ## Usage
