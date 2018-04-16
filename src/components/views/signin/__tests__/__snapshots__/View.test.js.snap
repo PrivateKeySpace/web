@@ -2,10 +2,64 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <div
-  class="p0_3js4c0"
+  class="p0_3js4c0-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-signInWrap_1jug6qr"
 >
   <div
-    class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-header_53u9ga"
+    class="pt4_34s7d-o_O-pb3_1a70m23-o_O-textAlignCenter_12to336-o_O-hidden_1u9fru1-o_O-trezorBridge_129dtqa"
+  >
+    <div
+      class="fontSize1_3kvou9-o_O-textTransformUppercase_4efw5a"
+    >
+      Trezor Bridge not installed
+    </div>
+    <div
+      class="fontSize3_o9hx2m-o_O-textTransformUppercase_4efw5a-o_O-mb3_1m9jzd0"
+    >
+      New communication tool to facilitate the connection between your TREZOR and your internet browser.
+    </div>
+    <div>
+      <div
+        class="p0_3js4c0-o_O-displayInlineBlock_36rlri-o_O-selectWrap_1hxi5gz"
+      >
+        <select
+          class="p1_dxtwdx-o_O-select_6gixgy"
+        >
+          <option
+            selected=""
+            value="windows"
+          >
+            Windows
+          </option>
+          <option
+            value="macos"
+          >
+            macOS
+          </option>
+          <option
+            value="linux"
+          >
+            Linux
+          </option>
+        </select>
+        <div
+          class="arrow_vhhicj"
+        >
+          <span
+            class="lnr lnr-chevron-down"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <button
+        class="p0_3js4c0-o_O-ml1_1dn7v29-o_O-textTransformUppercase_4efw5a-o_O-button_14du48h"
+      >
+        Download
+      </button>
+    </div>
+  </div>
+  <div
+    class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-header_lja6so"
   >
     <h1
       class="fontWeight100_9ql1x7-o_O-textTransformUppercase_4efw5a-o_O-mb4_tmuzvm-o_O-title_l3sxc4"
@@ -25,10 +79,12 @@ exports[`renders without crashing and matches snapshot 1`] = `
     <div
       class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-textTransformUppercase_4efw5a-o_O-getTrezor_21mq8f"
     >
-      Don't have a Trezor? 
+      Don't have a Trezor?  
       <a
         class="getTrezorLink_hfjgfu"
-        to="http://trezor.com"
+        href="https://trezor.io"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         Get here
       </a>
@@ -42,7 +98,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
         <img
           alt="Sign in with Trezor"
           class="mb2_3x2xkx-o_O-mr2_18emzam"
-          src="start.png"
+          src="trezorIcon.png"
         >
           
         </img>
@@ -64,7 +120,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     </div>
   </div>
   <div
-    class="textAlignCenter_12to336-o_O-textTransformUppercase_4efw5a-o_O-insertHint_a45a98"
+    class="textAlignCenter_12to336-o_O-textTransformUppercase_4efw5a-o_O-mb4_tmuzvm-o_O-insertHint_a45a98"
   >
     Insert your device to the computer.
     <br>
@@ -76,7 +132,7 @@ exports[`renders without crashing and matches snapshot 1`] = `
     class="px5_1g0n6pg-o_O-footerContainer_14ddvtv"
   >
     <div
-      class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-footer_r1wilx"
+      class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-textAlignCenter_12to336-o_O-footer_r1wilx"
     >
       2018 © PKS Wallet. All rights reserved.
     </div>

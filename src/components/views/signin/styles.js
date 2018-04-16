@@ -3,11 +3,13 @@ import { darken } from 'polished'
 import { colors } from '../../../theme/constants'
 
 const styles = StyleSheet.create({
+  signInWrap: {
+    minHeight: '100vh'
+  },
   header: {
     position: 'relative',
     backgroundColor: colors.darkBg,
     color: colors.white,
-    height: '50vh',
     minHeight: 400
   },
   title: {

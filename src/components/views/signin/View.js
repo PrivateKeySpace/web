@@ -2,10 +2,10 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { compose, setDisplayName, pure, withHandlers } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import { Footer } from '../../layouts/WalletLayout/components'
-import startLogo from '../../../assets/start.png'
+import startLogo from '../../../assets/signin/trezorIcon.png'
 import tx from '../../../theme/styles'
 import sx from './styles'
+import { Footer, TrezorBridge } from './components'
 import { mapDispatch, handlers } from './lib'
 
 const displayName = 'components/views/signin/View'
@@ -20,13 +20,21 @@ const enhance = compose(
 function View (props) {
   const { handleSignIn } = props
   return (
-    <div className={css(tx.p0)}>
+    <div className={css(tx.p0, tx.flex, tx.flexDirectionColumn, sx.signInWrap)}>
+      <TrezorBridge hidden />
       <div className={css(tx.flex, tx.flexDirectionColumn, tx.alignItemsCenter, tx.justifyContentCenter, sx.header)}>
         <h1 className={css(tx.fontWeight100, tx.textTransformUppercase, tx.mb4, sx.title)}>Private Key Space Wallet</h1>
         <h2 className={css(tx.fontWeight100, tx.textTransformUppercase, tx.textAlignCenter, sx.subtitle)}>PKS Wallet is an easy-to-use multi-signature wallet for your Trezor device.</h2>
         <div className={css(sx.separator)} />
         <div className={css(tx.flex, tx.flexDirectionRow, tx.textTransformUppercase, sx.getTrezor)}>
-          Don't have a Trezor?&nbsp;<a className={css(sx.getTrezorLink)} to='http://trezor.com'>Get here</a>
+          Don't have a Trezor?
+          &nbsp;
+          <a
+            className={css(sx.getTrezorLink)}
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://trezor.io'
+          >Get here</a>
         </div>
         <div
           className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.p3, sx.connectTrezor)}
@@ -41,7 +49,7 @@ function View (props) {
           </div>
         </div>
       </div>
-      <div className={css(tx.textAlignCenter, tx.textTransformUppercase, sx.insertHint)}>
+      <div className={css(tx.textAlignCenter, tx.textTransformUppercase, tx.mb4, sx.insertHint)}>
           Insert your device to the computer.
         <br />
           Trezor is required to log in to the application.

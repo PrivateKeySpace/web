@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<footer
+  class="px5_1g0n6pg-o_O-footerContainer_14ddvtv"
+>
+  <div
+    class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-textAlignCenter_12to336-o_O-footer_r1wilx"
+  >
+    2018 © PKS Wallet. All rights reserved.
+  </div>
+</footer>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<div
+  class="pt4_34s7d-o_O-pb3_1a70m23-o_O-textAlignCenter_12to336-o_O-trezorBridge_129dtqa"
+>
+  <div
+    class="fontSize1_3kvou9-o_O-textTransformUppercase_4efw5a"
+  >
+    Trezor Bridge not installed
+  </div>
+  <div
+    class="fontSize3_o9hx2m-o_O-textTransformUppercase_4efw5a-o_O-mb3_1m9jzd0"
+  >
+    New communication tool to facilitate the connection between your TREZOR and your internet browser.
+  </div>
+  <div>
+    <div
+      class="p0_3js4c0-o_O-displayInlineBlock_36rlri-o_O-selectWrap_1hxi5gz"
+    >
+      <select
+        class="p1_dxtwdx-o_O-select_6gixgy"
+      >
+        <option
+          selected=""
+          value="windows"
+        >
+          Windows
+        </option>
+        <option
+          value="macos"
+        >
+          macOS
+        </option>
+        <option
+          value="linux"
+        >
+          Linux
+        </option>
+      </select>
+      <div
+        class="arrow_vhhicj"
+      >
+        <span
+          class="lnr lnr-chevron-down"
+        >
+          
+        </span>
+      </div>
+    </div>
+    <button
+      class="p0_3js4c0-o_O-ml1_1dn7v29-o_O-textTransformUppercase_4efw5a-o_O-button_14du48h"
+    >
+      Download
+    </button>
+  </div>
+</div>
+`;
