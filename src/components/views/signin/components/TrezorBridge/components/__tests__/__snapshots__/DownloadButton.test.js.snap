@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing and matches snapshot 1`] = `
+<button
+  class="p0_3js4c0-o_O-ml1_1dn7v29-o_O-textTransformUppercase_4efw5a-o_O-button_14du48h"
+>
+  Download
+</button>
+`;

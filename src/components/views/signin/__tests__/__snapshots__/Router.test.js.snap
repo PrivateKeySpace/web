@@ -2,12 +2,140 @@
 
 exports[`renders without crashing and matches snapshot 1`] = `
 <div
-  class="p0_3js4c0"
+  class="p0_3js4c0-o_O-flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-signInWrap_1jug6qr"
 >
-  <button
-    type="button"
+  <div
+    class="pt4_34s7d-o_O-pb3_1a70m23-o_O-textAlignCenter_12to336-o_O-hidden_1u9fru1-o_O-trezorBridge_129dtqa"
   >
-    Log in with Trezor
-  </button>
+    <div
+      class="fontSize1_3kvou9-o_O-textTransformUppercase_4efw5a"
+    >
+      Trezor Bridge not installed
+    </div>
+    <div
+      class="fontSize3_o9hx2m-o_O-textTransformUppercase_4efw5a-o_O-mb3_1m9jzd0"
+    >
+      New communication tool to facilitate the connection between your TREZOR and your internet browser.
+    </div>
+    <div>
+      <div
+        class="p0_3js4c0-o_O-displayInlineBlock_36rlri-o_O-selectWrap_1hxi5gz"
+      >
+        <select
+          class="p1_dxtwdx-o_O-select_6gixgy"
+        >
+          <option
+            selected=""
+            value="windows"
+          >
+            Windows
+          </option>
+          <option
+            value="macos"
+          >
+            macOS
+          </option>
+          <option
+            value="linux"
+          >
+            Linux
+          </option>
+        </select>
+        <div
+          class="arrow_vhhicj"
+        >
+          <span
+            class="lnr lnr-chevron-down"
+          >
+            
+          </span>
+        </div>
+      </div>
+      <button
+        class="p0_3js4c0-o_O-ml1_1dn7v29-o_O-textTransformUppercase_4efw5a-o_O-button_14du48h"
+      >
+        Download
+      </button>
+    </div>
+  </div>
+  <div
+    class="flex_jro6t0-o_O-flexDirectionColumn_1jtvojh-o_O-alignItemsCenter_1moixrt-o_O-justifyContentCenter_agrn11-o_O-header_lja6so"
+  >
+    <h1
+      class="fontWeight100_9ql1x7-o_O-textTransformUppercase_4efw5a-o_O-mb4_tmuzvm-o_O-title_l3sxc4"
+    >
+      Private Key Space Wallet
+    </h1>
+    <h2
+      class="fontWeight100_9ql1x7-o_O-textTransformUppercase_4efw5a-o_O-textAlignCenter_12to336-o_O-subtitle_1tksn1q"
+    >
+      PKS Wallet is an easy-to-use multi-signature wallet for your Trezor device.
+    </h2>
+    <div
+      class="separator_hh3yff"
+    >
+      
+    </div>
+    <div
+      class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-textTransformUppercase_4efw5a-o_O-getTrezor_21mq8f"
+    >
+      Don't have a Trezor?  
+      <a
+        class="getTrezorLink_hfjgfu"
+        href="https://trezor.io"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Get here
+      </a>
+    </div>
+    <div
+      class="flex_jro6t0-o_O-flexDirectionRow_qb00m9-o_O-alignItemsCenter_1moixrt-o_O-p3_vx7tlw-o_O-connectTrezor_1v3fm3k"
+    >
+      <div
+        class="flex_jro6t0-o_O-justifyContentFlexEnd_chfqdn-o_O-alignItemsFlexEnd_1f2mvon-o_O-flexShrink0_fz3zdn-o_O-flexGrow0_1n0jrn7-o_O-trezorLogo_65dchg"
+      >
+        <img
+          alt="Sign in with Trezor"
+          class="mb2_3x2xkx-o_O-mr2_18emzam"
+          src="trezorIcon.png"
+        >
+          
+        </img>
+      </div>
+      <div
+        class="flexGrow1_t0tx82-o_O-textTransformUppercase_4efw5a-o_O-textAlignCenter_12to336-o_O-trezorMessage_4t85nx"
+      >
+        <div
+          class="mainMessage_1gxs8bt"
+        >
+          Sign In
+        </div>
+        <div
+          class="subMessage_ifnw95"
+        >
+          with Trezor
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="textAlignCenter_12to336-o_O-textTransformUppercase_4efw5a-o_O-mb4_tmuzvm-o_O-insertHint_a45a98"
+  >
+    Insert your device to the computer.
+    <br>
+      
+    </br>
+    Trezor is required to log in to the application.
+  </div>
+  <footer
+    class="px5_1g0n6pg-o_O-footerContainer_14ddvtv"
+  >
+    <div
+      class="width100_zdxht7-o_O-py4_r2hutn-o_O-px1_17oj4c4-o_O-textTransformUppercase_4efw5a-o_O-textAlignCenter_12to336-o_O-footer_r1wilx"
+    >
+      2018 © PKS Wallet. All rights reserved.
+    </div>
+  </footer>
 </div>
 `;

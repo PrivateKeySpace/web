@@ -8,7 +8,7 @@
     script-src 'self'  https://connect.trezor.io ;
     style-src 'self' 'unsafe-inline' ;
     font-src 'self' ;
-    img-src 'self' ;
+    img-src 'self' data:;
     connect-src 'self' %REACT_APP_API_BASE_URL% ws://localhost:5000
       http://127.0.0.1:21324 http://127.0.0.1:21325 https://localback.net:21324 https://localback.net:21325
       https://wallet.trezor.io ;
