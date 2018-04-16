@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { compose, setDisplayName, pure, withHandlers } from 'recompose'
 import { css } from 'aphrodite/no-important'
-import startLogo from '../../../assets/signin/trezorIcon.png'
+import startLogoUrl from '../../../assets/signin/trezorIcon.png'
 import tx from '../../../theme/styles'
 import sx from './styles'
 import { Footer, TrezorBridge } from './components'
@@ -34,14 +34,16 @@ function View (props) {
             target='_blank'
             rel='noopener noreferrer'
             href='https://trezor.io'
-          >Get here</a>
+          >
+            Get here
+          </a>
         </div>
         <div
           className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.p3, sx.connectTrezor)}
           onClick={handleSignIn}
         >
           <div className={css(tx.flex, tx.justifyContentFlexEnd, tx.alignItemsFlexEnd, tx.flexShrink0, tx.flexGrow0, sx.trezorLogo)}>
-            <img className={css(tx.mb2, tx.mr2)} src={startLogo} alt='Sign in with Trezor' />
+            <img className={css(tx.mb2, tx.mr2)} src={startLogoUrl} alt='Sign in with Trezor' />
           </div>
           <div className={css(tx.flexGrow1, tx.textTransformUppercase, tx.textAlignCenter, sx.trezorMessage)}>
             <div className={css(sx.mainMessage)}>Sign In</div>

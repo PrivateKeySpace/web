@@ -1,9 +1,9 @@
 import handlers from '../handlers'
 
-it('should call setSelectedOS prop when handleSelectOS handler is called', () => {
-  const props = { setSelectedOS: jest.fn() }
+it('should call setselectedOs prop when handleSelectOs handler is called', () => {
+  const props = { setselectedOs: jest.fn() }
 
-  handlers.handleSelectOS(props)({ target: { value: 'test value' } })
+  handlers.handleSelectOs(props)({ target: { value: 'test value' } })
 
-  expect(props.setSelectedOS).toBeCalled()
+  expect(props.setselectedOs).toBeCalled()
 })

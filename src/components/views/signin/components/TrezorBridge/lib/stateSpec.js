@@ -1,5 +1,5 @@
 const stateSpec = [
-  ['selectedOS', 'setSelectedOS', 'windows']
+  ['selectedOs', 'setselectedOs', 'windows']
 ]
 
 export default stateSpec

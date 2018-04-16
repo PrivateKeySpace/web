@@ -1,7 +1,7 @@
 const handlers = {
-  handleSelectOS: props => event => {
-    const { setSelectedOS } = props
-    setSelectedOS(event.target.value)
+  handleSelectOs: props => event => {
+    const { setselectedOs } = props
+    setselectedOs(event.target.value)
   }
 }
 
