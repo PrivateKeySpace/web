@@ -27,7 +27,7 @@ function View (props) {
   return (
     <WalletLayout
       topBarContent={
-        'Running in TestNet'
+        'Running in RegTest'
       }
       headerContent={
         <div className={css(tx.flex, tx.width100, tx.flexDirectionRow, tx.justifyContentSpaceBetween)}>

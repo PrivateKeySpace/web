@@ -10,9 +10,11 @@ const styles = StyleSheet.create({
   navbar: {
     height: 36
   },
-  notifications: {
-    position: 'relative',
+  pullRight: {
     marginLeft: 'auto'
+  },
+  notifications: {
+    position: 'relative'
   },
   notificationCounterWrap: {
     position: 'absolute',
