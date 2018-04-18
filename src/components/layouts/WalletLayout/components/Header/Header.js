@@ -20,22 +20,24 @@ function Header (props) {
         <h2 className={css(tx.textTransformUppercase)}>
           PKS Wallet
         </h2>
-        <div className={css(tx.mr4, tx.fontSize1, sx.notifications)}>
-          <span className='lnr lnr-alarm' />
-          <div className={css(sx.notificationCounterWrap)}>
-            <div className={css(tx.flex, tx.alignItemsCenter, tx.justifyContentCenter, sx.notificationCounter)}>5</div>
+        <div className={css(tx.flex, tx.flexDirectionRow, tx.alignItemsCenter, tx.height100, sx.pullRight)}>
+          <div className={css(tx.mr4, tx.fontSize1, tx.hidden, sx.notifications)}>
+            <span className='lnr lnr-alarm' />
+            <div className={css(sx.notificationCounterWrap)}>
+              <div className={css(tx.flex, tx.alignItemsCenter, tx.justifyContentCenter, sx.notificationCounter)}>5</div>
+            </div>
           </div>
-        </div>
-        <div className={css(sx.separator)} />
-        <div className={css(tx.ml4, tx.flex, tx.flexDirectionColumn, tx.alignItemsFlexEnd)}>
-          <div className={css(tx.textTransformUppercase, sx.deviceName)}>
+          <div className={css(tx.hidden, sx.separator)} />
+          <div className={css(tx.ml4, tx.flex, tx.flexDirectionColumn, tx.alignItemsFlexEnd)}>
+            <div className={css(tx.textTransformUppercase, sx.deviceName)}>
             Trezor Label
-          </div>
-          <div className={css(tx.textTransformUppercase, sx.deviceStatus)}>
+            </div>
+            <div className={css(tx.textTransformUppercase, sx.deviceStatus)}>
             connected
+            </div>
           </div>
+          <Menu />
         </div>
-        <Menu />
       </div>
       <div className={css(tx.pb3, sx.content)}>
         {content}

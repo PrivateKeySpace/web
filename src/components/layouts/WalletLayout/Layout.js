@@ -25,7 +25,7 @@ function Layout (props) {
   } = props
   return (
     <div className={css(tx.flex, tx.flexDirectionColumn, sx.container)}>
-      <div className={css(tx.fontWeight500, sx.topBarContainer)}>
+      <div className={css(tx.fontWeight500, tx.textTransformUppercase, sx.topBarContainer)}>
         {topBarContent}
       </div>
       <div className={css(tx.flex, tx.flexGrow1, tx.flexDirectionRow, tx.width100)}>
